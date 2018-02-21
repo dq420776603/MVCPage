@@ -269,6 +269,8 @@
     <None Include="App_Data\configFile\NHibernate\hibernate.cfg.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Content Include="App_Data\DB\CenoSystem2017.mdf" />
+    <Content Include="App_Data\DB\CenoSystem2017_1.LDF" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -1398,7 +1400,6 @@
     <Content Include="Scripts\My97DatePicker\vssver2.scc" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\DB\" />
     <Folder Include="Scripts\bootstrap\bootstrap-table\ClickEditRow\" />
   </ItemGroup>
   <ItemGroup>
@@ -1407,6 +1408,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <Content Include="App_Data\Log\log4net.config" />
+    <Content Include="App_Data\DB\CenoSystem2017.zip" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\bootstrap\bootstrap-3.3.7-dist\bootstrap.cshtml" />
     <Content Include="Scripts\bootstrap\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map" />
