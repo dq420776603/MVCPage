@@ -1,0 +1,366 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @*1、Jquery 1_10引用*@
+    @*@System.Web.Optimization.Scripts.Render("~/Scripts/jquery_1_10/js")*@
+    <script src="~/Scripts/jquery/jquery_1_10/jquery-1.10.2.min.js"></script>
+
+    @*2、bootstrap组件引用*@
+    <link type="text/css" rel="stylesheet" href="~/Scripts/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <script src="~/Scripts/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    @*3、bootstrap table组件以及中文包的引用*@
+    <link href="~/Scripts/bootstrap/bootstrap-table/bootstrap-table.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap/bootstrap-table/bootstrap-table.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap-table/bootstrap-table-zh-CN.js"></script>
+
+    @*bootstrap验证框架*@
+    <link href="~/Scripts/bootstrap/bootstrap-formValidation/css/formValidation.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap/bootstrap-formValidation/js/formValidation.min.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap-formValidation/js/framework/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap-formValidation/js/language/zh_CN.js"></script>
+
+    <link href="~/Scripts/bootstrap/bootstrap-table/bootstrap-table-click-edit-row.css" rel="stylesheet" />
+    <link href="~/Scripts/bootstrap/bootstrap-table/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap/bootstrap-table/bootstrap-table-click-edit-row.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap-table/ga.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap-table/bootstrap-table-editable.min.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap-table/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+    <script src='~/Scripts/My97DatePicker/WdatePicker.js'></script>
+    <script src='~/Scripts/common/common.js'></script>
+    <script src='~/Scripts/common/request.js'></script>
+    <style>
+        .margin_input {
+            /*margin-right: 10px;*/
+            margin-bottom: 5px;
+            width: 177px;
+        }
+
+        .sectioncss {
+            background: #eff0f4;
+            clear: both;
+            width: 100%;
+            display: table;
+            overflow: auto;
+        }
+        /*
+            样式调整
+        */
+        .panel-body {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-color: #fff !important;
+            overflow: visible !important;
+        }
+
+        .panel-green > .panel-heading {
+            background-color: #65CEA7;
+            border-color: #65CEA7;
+        }
+
+        .panel-heading {
+            border-radius: 0px;
+        }
+
+            .panel-heading > h3 {
+                color: #fff;
+            }
+
+        .mtb > tr > td {
+            width: 165px;
+        }
+
+        .right-td {
+            width: 77px;
+            text-align: right;
+        }
+
+        /*
+            控件长度一致
+        */
+        .bootstrap-select > .dropdown-toggle {
+            width: 177px;
+            margin-bottom: 5px;
+        }
+    </style>
+
+
+    <style>
+        /* 验证样式(放到里面) */
+        .form-horizontal .has-feedback .form-control-feedback {
+            top: 0;
+            right: 55px;
+        }
+
+        .form-horizontal .has-feedback .input-group .form-control-feedback {
+            top: 0;
+            right: -30px;
+        }
+        /*提至这里*/
+        @@media (min-width:768px) {
+            /*
+                label字体长度,超长省略
+            */
+            .form-inline > .form-group label {
+                width: 100px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                text-align: right;
+                vertical-align: middle;
+            }
+            /*
+                控件长度一致,待以后追加,现在先写俩个
+            */
+            .form-inline > .form-group input:not(.input-mini),
+            .bootstrap-select:not([class*=col-]):not(.input-group-btn):not(.auto-select),
+            .form-inline > .form-group button:not(.form-button):not(.editable-submit):not(.editable-cancel) {
+                width: 177px;
+            }
+            /*
+                间距
+            */
+            .form-inline .form-group {
+                margin-bottom: 5px;
+            }
+        }
+
+        @@media(max-width:768px) {
+            /*
+                过小时只显示图标
+            */
+            .btn-group nostyle {
+                display: none;
+            }
+        }
+        /*
+            下拉板高度固定
+        */
+        .bootstrap-select.btn-group .dropdown-menu.inner {
+            height: 250px;
+        }
+        /*
+            修正字体大小
+        */
+        body {
+            font-size: 12px;
+        }
+        /*
+            修正菜单靠下
+        */
+        .sticky-left-side .custom-nav {
+            margin-top: 0 !important;
+        }
+        /*
+            修正编辑框的清除按钮
+        */
+        .editable-clear-x {
+            margin-top: -10px !important;
+        }
+        /*
+            修正表格分页提示不对齐
+        */
+        .pagination-info {
+            float: none !important;
+        }
+        /*
+            设置字体
+        */
+        .btn-group > .btn-default:not(.dropdown-toggle) {
+            font-size: 12px;
+        }
+        /*
+            样式分开写
+        */
+        .lightBlack {
+            color: #999;
+        }
+    </style>
+</head>
+<body style="overflow:auto;padding-top:0px;padding-left:0px;">
+    <!-- 模态窗口框架 -->
+
+    <form id="form1" style="padding-top:0px">
+        <!-- main content start-->
+        <div class="main-content add_main add_main">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-green" style="overflow:visible">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                基本信息
+                            </h3>
+                        </div>
+                        <div class="panel-body" style="padding-top:5px;">
+                            <table class="mtb">
+                                <tr>
+                                    <td class="right-td">姓名：</td>
+                                    <td>
+                                        <input type="text" name="Xm" class="margin_input form-control" />
+                                    </td>
+                                    <td class="right-td">身份证：</td>
+                                    <td>
+                                        <input type="text" name="Shfzh" class="margin_input form-control" />
+                                    </td>
+                                    <td class="right-td">卡号：</td>
+                                    <td>
+                                        <input type="text" name="Cardno" class="margin_input form-control" />
+                                    </td>
+                                    <td class="right-td">账号：</td>
+                                    <td>
+                                        <input type="text" name="Account" class="margin_input form-control" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-td">
+                                        接单时间：
+                                    </td>
+                                    <td>
+                                        <input type="text" id="BeginJdsj" onfocus="WdatePicker()" name="BeginJdsj"
+                                               class="margin_input form-control" />
+                                    </td>
+                                    <td class="right-td">至：</td>
+                                    <td>
+                                        <input type="text" id="EndJdsj" onfocus="WdatePicker()" name="EndJdsj"
+                                               class="margin_input form-control" />
+                                    </td>
+                                    <td class="right-td">
+                                        委案金额起：
+                                    </td>
+                                    <td>
+                                        <input type="text" class="margin_input form-control" id="search_StartMoney" name="StartMoney">
+                                    </td>
+                                    <td class="right-td">
+                                        委案金额止：
+                                    </td>
+                                    <td>
+                                        <input type="text" class="margin_input form-control" id="search_EndMoney" name="EndMoney">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="right-td">业务员：</td>
+                                    <td>
+                                        @Html.Action("Index", "UsersCommon",
+                                    new { area = string.Empty, name = "member", htmlAttributes = new { style = @"width:120px;margin-right: 10px;", @class = "selectpicker show-tick", @data_live_search = "true" } })
+                                    </td>
+                                    <td class="right-td">客户：</td>
+                                    <td>
+                                        @Html.Action("Index", "KehuCommon",
+                                    new { area = string.Empty, name = "customer", htmlAttributes = new { style = @"width:120px;", @class = "selectpicker show-tick", @data_live_search = "true" } })
+                                    </td>
+                                    <td class="right-td">
+                                        催收状态：
+                                        @*<label for="StateID">催收状态：</label>*@
+                                    </td>
+                                    <td class="right-td">
+                                        @Html.Action("IndexByBaseSysCodeGroupId", "BaseSysCodeCommon",
+                                    new
+                                    {
+                                        area = string.Empty,
+                                        baseSysCodeGroupId = "xyState",
+                                        name = "StateID",
+                                        htmlAttributes =
+                                        new
+                                        {
+                                            style = @"width:120px;",
+                                            @class = "selectpicker show-tick",
+                                            @data_live_search = "true"
+                                        }
+                                    })
+                                    </td>
+                                    <td class="right-td">措施：</td>
+                                    <td>
+                                        <input type="text" name="jzhmethod" class="margin_input form-control" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="8" style="text-align:right"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--body wrapper start-->
+            <div class="panel sectioncss">
+                <div class="panel-body col-md-12" style="padding-bottom:10px;">
+                    <table id="sample-table" data-pagination-h-align="left">
+                        <thead>
+                            <tr>
+                                <th data-checkbox="true"></th>
+                                <th data-field="kehu" data-sortable="true">客户</th>
+                                <th data-field="Shfzh" data-sortable="true">身份证</th>
+                                <th data-field="Account" data-sortable="true">账号</th>
+                                <th data-field="Cardno" data-sortable="true">卡号</th>
+                                <th data-field="Xm" data-sortable="true">姓名</th>
+                                <th data-field="Gqsd" data-sortable="true">逾期时段</th>
+                                <th data-field="Khrq" data-formatter="bootstrapDateRenderer" data-sortable="true">开户日期</th>
+                                <th data-field="Jdsj" data-formatter="bootstrapDateRenderer" data-sortable="true">接单时间</th>
+                                <th data-field="Dqsj" data-formatter="bootstrapDateRenderer" data-sortable="true">到期时间</th>
+                                <th data-field="ywy" data-sortable="true">业务员</th>
+                                <th data-field="State" data-sortable="true">状态</th>
+                                <th data-field="Jdpc" data-sortable="true">接单批次</th>
+                                <th data-field="Shouci" data-sortable="true">手次</th>
+                                <th data-field="Shengfen" data-sortable="true">省份</th>
+                                <th data-field="Chengshi" data-sortable="true">城市</th>
+                                <th data-field="fenzhi" data-sortable="true">委案机构</th>
+                                <th data-field="Huobi" data-sortable="true">货币</th>
+                                <th data-field="Qkje" data-sortable="true">欠款金额</th>
+                                <th data-field="Zxqke" data-sortable="true">最新欠款</th>
+                                <th data-field="Zxqkerq" data-formatter="bootstrapDateRenderer" data-sortable="true">最新欠款日期</th>
+                                <th data-field="shje" data-sortable="true">收回金额</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="alert alert-success alert-block fade in">
+                <button type="button" class="close close-sm" data-dismiss="alert">
+                    <i class="fa fa-times"></i>
+                </button>
+                <p>双击记录即可查看详情</p>
+            </div>
+
+            <!--body wrapper end-->
+        </div>
+    </form>
+    <script>
+            function getbootstrapTableSetting() {
+                return jQuery.extend({}, bootstrapTableAqua, {
+                    toolbar: '#toolbar',                //工具按钮用哪个容器
+                    pagination: true,                   //是否显示分页（*）
+                    pageNumber: 1,                      //初始化加载第一页，默认第一页
+                    pageSize: 10,                       //每页的记录行数（*）
+                    pageList: [10, 20, 50, 100],        //可供选择的每页的行数（*）
+                    queryParams: function (params) {
+                        var formId = '#form1';
+                        return extendFormParamsAndFormJsonStr(params, formId);
+                    },
+                    url: '@Url.Action("Getdata", "AccountQuery")'
+                });
+            }
+            jQuery(function ($) {
+                var bootstrapTableAqua1 = getbootstrapTableSetting();
+                bootstrapTableAqua1.url = "";
+                $('#sample-table').bootstrapTable(bootstrapTableAqua1);
+            });
+            function rowDbClick(a, rowData, c, d, e, f) {
+                //这里是双击
+                //双击弹出啊显示右侧
+                var parUrl = '@Url.Content("~/Users/Mvc/Views/Operate/MineCardInfo/CardOperate.aspx")';
+                parUrl += "?XybaseId=" + rowData.XybaseId + "&Read=false";
+                var addTab = window.addTab;
+                addTab({ url: parUrl });
+            }
+            $('#sample-table').on("dbl-click-row.bs.table", rowDbClick);
+    </script>
+</body>

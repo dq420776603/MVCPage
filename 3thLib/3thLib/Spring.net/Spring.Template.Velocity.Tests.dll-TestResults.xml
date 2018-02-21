@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Spring.Template.Velocity.Tests.dll" total="16" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-07-24" time="11:34:51">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.3620" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="F:\bamboo-home\xml-data\build-dir\SPRNET-DAILY-JOB1\build\net\4.0\release" machine-name="NEWYORK" user="bamboo-agent" user-domain="NEWYORK" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="Spring.Template.Velocity.Tests.dll" executed="True" result="Success" success="True" time="3.406" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Spring" executed="True" result="Success" success="True" time="3.406" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Template" executed="True" result="Success" success="True" time="3.391" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Velocity" executed="True" result="Success" success="True" time="3.375" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Config" executed="True" result="Success" success="True" time="2.203" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="TemplateNamespaceParserTests" executed="True" result="Success" success="True" time="2.203" asserts="0">
+                        <results>
+                          <test-case name="Spring.Template.Velocity.Config.TemplateNamespaceParserTests.TestAssemblyBasedConfig" executed="True" result="Success" success="True" time="1.516" asserts="7" />
+                          <test-case name="Spring.Template.Velocity.Config.TemplateNamespaceParserTests.TestCustomResourceLoader" executed="True" result="Success" success="True" time="0.125" asserts="7" />
+                          <test-case name="Spring.Template.Velocity.Config.TemplateNamespaceParserTests.TestFileBasedConfig" executed="True" result="Success" success="True" time="0.156" asserts="8" />
+                          <test-case name="Spring.Template.Velocity.Config.TemplateNamespaceParserTests.TestGlobalConfig" executed="True" result="Success" success="True" time="0.141" asserts="4" />
+                          <test-case name="Spring.Template.Velocity.Config.TemplateNamespaceParserTests.TestLocalConfig" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="Spring.Template.Velocity.Config.TemplateNamespaceParserTests.TestSpringBasedConfig" executed="True" result="Success" success="True" time="0.125" asserts="7" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="VelocityEngineFactoryObjectTests" executed="True" result="Success" success="True" time="1.156" asserts="0">
+                    <results>
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestInvalidConfiguration" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestLogging" executed="True" result="Success" success="True" time="0.141" asserts="0" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestMergeUsingAssembly" executed="True" result="Success" success="True" time="0.109" asserts="2" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestMergeUsingConfigPropertiesFile" executed="True" result="Success" success="True" time="0.141" asserts="2" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestMergeUsingCustomNamespaceDefinition" executed="True" result="Success" success="True" time="0.125" asserts="2" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestMergeUsingFile" executed="True" result="Success" success="True" time="0.141" asserts="3" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestMergeUsingResourceLoaderPath" executed="True" result="Success" success="True" time="0.125" asserts="2" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestMergeUsingResourceLoaderPathFallback" executed="True" result="Success" success="True" time="0.125" asserts="2" />
+                      <test-case name="Spring.Template.Velocity.VelocityEngineFactoryObjectTests.TestMergeUsingSpringResourceLoader" executed="True" result="Success" success="True" time="0.125" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="VelocityCompilerOptionTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="Spring.VelocityCompilerOptionTests.CompilerOptionsTests.TestBuildCompliance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

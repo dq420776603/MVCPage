@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Spring.Web.Tests.dll" total="204" errors="0" failures="0" not-run="2" inconclusive="0" ignored="2" skipped="0" invalid="0" date="2011-07-24" time="11:34:20">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.3620" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="F:\bamboo-home\xml-data\build-dir\SPRNET-DAILY-JOB1\build\net\4.0\release" machine-name="NEWYORK" user="bamboo-agent" user-domain="NEWYORK" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="Spring.Web.Tests.dll" executed="True" result="Success" success="True" time="28.359" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Spring" executed="True" result="Success" success="True" time="28.344" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Caching" executed="True" result="Success" success="True" time="0.391" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="AspNetCacheTests" executed="True" result="Success" success="True" time="0.391" asserts="0">
+                <results>
+                  <test-case name="Spring.Caching.AspNetCacheTests.AddItemToCacheAbsoluteExpiration" executed="True" result="Success" success="True" time="0.250" asserts="4" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.AddItemToCacheNoExpiration" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.AddItemToCacheSlidingExpiration" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.DifferentCacheNamesCauseSameKeyToBeDifferent" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.DoesNotAcceptNullKeysOnInsert" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.Get" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.GetNullKeysReturnsNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.IgnoreNullKeysOnRemove" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.PassesParametersToRuntimeCache" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.Remove" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.ReturnsOnlyKeysOwnedByCache" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                  <test-case name="Spring.Caching.AspNetCacheTests.ZeroTTLCausesNoExpiration" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Context" executed="True" result="Success" success="True" time="6.438" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Support" executed="True" result="Success" success="True" time="6.438" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="HttpApplicationConfigurerTests" executed="True" result="Success" success="True" time="1.047" asserts="0">
+                    <results>
+                      <test-case name="Spring.Context.Support.HttpApplicationConfigurerTests.ConfiguresApplicationAndModulesFromTemplate" executed="True" result="Success" success="True" time="0.297" asserts="4" />
+                      <test-case name="Spring.Context.Support.HttpApplicationConfigurerTests.ConfigureUsingXmlApplicationContext" executed="True" result="Success" success="True" time="0.672" asserts="3" />
+                      <test-case name="Spring.Context.Support.HttpApplicationConfigurerTests.ConfigureUsingXmlApplicationContext_CanMergePropertyValues" executed="True" result="Success" success="True" time="0.031" asserts="6" />
+                      <test-case name="Spring.Context.Support.HttpApplicationConfigurerTests.ShareApplicationTemplate" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Context.Support.HttpApplicationConfigurerTests.ShareModuleTemplates" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                      <test-case name="Spring.Context.Support.HttpApplicationConfigurerTests.ThrowsOnUnapplicableModuleTemplate" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WebApplicationContextArgsTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Context.Support.WebApplicationContextArgsTests.Default_CaseSensitivity_isFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WebApplicationContextTests" executed="True" result="Success" success="True" time="5.359" asserts="0">
+                    <results>
+                      <test-case name="Spring.Context.Support.WebApplicationContextTests.CanAccessContextFromNonWebThread" executed="True" result="Success" success="True" time="0.063" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WebContextHandlerTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Context.Support.WebContextHandlerTests.should_return_registered_context_with_ContextRegistry" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="0.063" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="IO" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="WebResourceTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.CreateFileSystemResourceWithPathName" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.CreateRelativeFromNonExistentOriginalResource" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.CreateRelativeResourceIsEqualToOriginalAfterBouncingUpAndDownTheDirectoryTree" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.CreateRelativeWithEmptyRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.CreateRelativeWithNullRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.FileSystemResourceExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.FileSystemResourceGivesOpenedInputStream" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.FileSystemResourceNotExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.FileSystemResourceOpenNonExistanceFile" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.FileSystemResourceValidInputStream" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.GetDescription" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.GetURL" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.RelativeResourceFromRoot" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.RelativeResourceFromSubfolder" executed="True" result="Success" success="True" time="0.000" asserts="11" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.RelativeResourceTooManyBackLevels" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.RelativeResourceWhenNotRelative" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.Resolution_PlainVanilla" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.Resolution_WithSpecialHomeCharacter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.SupportsAndResolvesTheSpecialHomeCharacter_OnlyIfSpecialHomeCharacterIsFirstCharacter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.SupportsAndResolvesTheSpecialHomeCharacter_SunnyDay" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Core.IO.WebResourceTests.FileSystemResourceCommonTests.SupportsAndResolvesTheSpecialHomeCharacter_SunnyDayEvenWithLeadingWhitespace" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Globalization" executed="True" result="Success" success="True" time="0.016" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Resolvers" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="DefaultWebCultureResolverTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Globalization.Resolvers.DefaultWebCultureResolverTests.AlwaysReturnsDefaultCultureIfDefaultCultureIsSet" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Globalization.Resolvers.DefaultWebCultureResolverTests.DefaultCultureDefaultsToNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Globalization.Resolvers.DefaultWebCultureResolverTests.ReturnsCurrentUICultureIfNoDefaultCultureIsSetAndNoOrInvalidRequestLanguage" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Globalization.Resolvers.DefaultWebCultureResolverTests.ReturnsRequestCultureIfNoDefaultCulture" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Objects" executed="True" result="Success" success="True" time="5.031" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Factory" executed="True" result="Success" success="True" time="5.016" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Support" executed="True" result="Success" success="True" time="4.938" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="WebObjectDefinitionFactoryTests" executed="True" result="Success" success="True" time="4.891" asserts="0">
+                        <results>
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionFactoryTests.CreateChildDefinition" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionFactoryTests.CreateRootDefinition" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionFactoryTests.DoesNotResolveTypeNameToFullTypeInstanceIfAppDomainIsNull" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionFactoryTests.ResolvesToPageChildDefinitionIfEndsWithASPX" executed="True" result="Success" success="True" time="1.453" asserts="0" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionFactoryTests.ResolvesToPageRootDefinitionIfEndsWithASPX" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionFactoryTests.ThrowsArgumentExceptionOnNonExistingPath" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="WebObjectDefinitionTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionTests.UnderstandsObjectScopePrototype" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectDefinitionTests.UnderstandsObjectScopeSingleton" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="WebObjectFactoryTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectFactoryTests.CanBeUsedOnNonWebThread" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="WebObjectUtilsTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectUtilsTests.CreatePageInstanceWhenNotRunningInServerContext" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectUtilsTests.GetPageTypeWithEmptyStringPageName" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectUtilsTests.GetPageTypeWithNullPageName" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Objects.Factory.Support.WebObjectUtilsTests.GetPageTypeWithWhitespacedPageName" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WebObjectDefinitionReaderTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                    <results>
+                      <test-case name="Spring.Objects.Factory.WebObjectDefinitionReaderTests.ControlDefinitionsGetMarkedAbstract" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                      <test-case name="Spring.Objects.Factory.WebObjectDefinitionReaderTests.DoesNotGenerateObjectNameIfIdAndNameAttributeSpecified" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                      <test-case name="Spring.Objects.Factory.WebObjectDefinitionReaderTests.DoesNotGenerateObjectNameIfIdAttributeSpecified" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="Spring.Objects.Factory.WebObjectDefinitionReaderTests.DoesNotGenerateObjectNameIfNameAttributeSpecified" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="Spring.Objects.Factory.WebObjectDefinitionReaderTests.ParsesPagePathIntoObjectNameIfNeitherIdNorNameAttributeSpecified" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Threading" executed="True" result="Success" success="True" time="0.031" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="HttpContextStorageTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                <results>
+                  <test-case name="Spring.Threading.HttpContextStorageTests.CommonThreadStorageTests.AllowReplaceData" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                  <test-case name="Spring.Threading.HttpContextStorageTests.CommonThreadStorageTests.FreeNamedDataSlotRemovesData" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Spring.Threading.HttpContextStorageTests.CommonThreadStorageTests.IsCaseSensitive" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                  <test-case name="Spring.Threading.HttpContextStorageTests.CommonThreadStorageTests.UnknownKeyReturnsNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Threading.HttpContextStorageTests.CommonThreadStorageTests.UsesDistinguishedStorageOnDifferentThreads" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="HybridContextStorageTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Spring.Threading.HybridContextStorageTests.CommonThreadStorageTests.AllowReplaceData" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                  <test-case name="Spring.Threading.HybridContextStorageTests.CommonThreadStorageTests.FreeNamedDataSlotRemovesData" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Spring.Threading.HybridContextStorageTests.CommonThreadStorageTests.IsCaseSensitive" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                  <test-case name="Spring.Threading.HybridContextStorageTests.CommonThreadStorageTests.UnknownKeyReturnsNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Threading.HybridContextStorageTests.CommonThreadStorageTests.UsesDistinguishedStorageOnDifferentThreads" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Util" executed="True" result="Success" success="True" time="0.047" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="WebDIPerformanceTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+              <test-suite type="TestFixture" name="WebUtilsTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                <results>
+                  <test-case name="Spring.Util.WebUtilsTests.CombineVirtualPathsDoesntAcceptEmptyRoot" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                  <test-case name="Spring.Util.WebUtilsTests.CombineVirtualPathsDoesntAcceptNonRootedRoot" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Util.WebUtilsTests.CombineVirtualPathsDoesntAcceptNullRoot" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Util.WebUtilsTests.CombineVirtualPathsInChildWeb" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                  <test-case name="Spring.Util.WebUtilsTests.CombineVirtualPathsInRootWeb" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_ApplicationPathAndAppRootRelativePath_ReturnsConcatenatedPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_ApplicationPathAndRelativePath_ReturnsConcatenatedPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_ApplicationPathWithTrailingSlashAndAppRootRelativePath_ReturnsConcatenatedPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_ApplicationPathWithTrailingSlashAndRelativePath_ReturnsConcatenatedPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_EmptyApplicationPath_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_EmptyApplicationPathAndAppRootRelativePath_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_EmptyApplicationPathAndNullRelativePath_ReturnsRootPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_EmptyRelativePath_ReturnsApplicationPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_NullApplicationPath_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_NullApplicationPathAndAppRootRelativePath_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_NullRelativePath_ReturnsApplicationPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_RootApplicationPath_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_RootApplicationPathAndAppRootRelativePath_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_RootApplicationPathAndNullRelativePath_ReturnsRootPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_WhenRelativePathBeginsWithApplicationPath_ReturnsConcatenatedPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_WhenRelativePathIsHttpQualifiedUrl_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                  <test-case name="Spring.Util.WebUtilsTests.CreateAbsolutePath_WhenRelativePathIsHttpsQualifiedUrl_ReturnsRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                  <test-case name="Spring.Util.WebUtilsTests.GetPageNameSunnyDay" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                  <test-case name="Spring.Util.WebUtilsTests.GetPageNameWherePageHasNoExtension" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Spring.Util.WebUtilsTests.GetPageNameWherePageHasOddExtension" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Util.WebUtilsTests.GetPageNameWithEmptyUrl" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Util.WebUtilsTests.GetPageNameWithNullUrl" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Util.WebUtilsTests.GetPageNameWithWhitespacedUrl" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Spring.Util.WebUtilsTests.GetRelativePath" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Web" executed="True" result="Success" success="True" time="16.281" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Services" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="WebServiceExporterTests" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.AppliesCustomAttributeBuilderToType" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.CreatesCustomWebMethodAttributeWithNoDecoratedMethod" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.CreatesDefaultWebMethodAttributeWithNoDecoratedMethod" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.CreatesDefaultWebServiceBindingAttribute" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.CreatesWebServiceAttributeWithNoDecoratedClassAndFullConfig" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.CreatesWebServiceAttributeWithNoDecoratedClassAndMinimalConfig" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.CreatesWebServiceBindingAttributeWithNoWsiProfile" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.NullConfig" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.OverridesExistingWebMethodAttributeWithDecoratedMethod" executed="False" result="Ignored">
+                        <reason>
+                          <message><![CDATA[Attributes override not implemented.]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.OverridesExistingWebServiceAttributeWithDecoratedClass" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.ProxiesTargetInterfaces" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.UseCustomWebServiceType" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.UsesExistingWebMethodAttributeWithDecoratedMethod" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Web.Services.WebServiceExporterTests.UsesExistingWebServiceBindingAttributeWithDecoratedClass" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Support" executed="True" result="Success" success="True" time="15.859" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AbstractHandlerFactoryTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.AbstractHandlerFactoryTests.CachesReusableHandlers" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                      <test-case name="Spring.Web.Support.AbstractHandlerFactoryTests.DoesntCacheNonReusableHandlers" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Web.Support.AbstractHandlerFactoryTests.FindWebObjectDefinition" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Web.Support.AbstractHandlerFactoryTests.GetCheckedApplicationContextThrowsExceptionsOnNonConfigurableContexts" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ControlInterceptionTests" executed="True" result="Success" success="True" time="0.234" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.ControlInterceptionTests.ADDandADDATInjectDependencies" executed="True" result="Success" success="True" time="0.047" asserts="4" />
+                      <test-case name="Spring.Web.Support.ControlInterceptionTests.DealsWithControlCollectionsHavingNonStandardConstructor" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                      <test-case name="Spring.Web.Support.ControlInterceptionTests.DealsWithControlsImplementingISupportsWebDependencyInjection" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                      <test-case name="Spring.Web.Support.ControlInterceptionTests.DealsWithNoninheritableControlCollections" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                      <test-case name="Spring.Web.Support.ControlInterceptionTests.HierarchyGetsInjectedAfterAttachToTree" executed="True" result="Success" success="True" time="0.031" asserts="8" />
+                      <test-case name="Spring.Web.Support.ControlInterceptionTests.SetsApplicationContextOnIApplicationContextAware" executed="True" result="Success" success="True" time="0.078" asserts="8" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="HandlerMapTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.HandlerMapTests.CanMatch_EmbeddedLiteralsPattern" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Web.Support.HandlerMapTests.CanMatch_ExactStringPatterns" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Web.Support.HandlerMapTests.CanMatch_LeadingLiteralsPattern" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="LocalResourceManagerTests" executed="True" result="Success" success="True" time="8.328" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.LocalResourceManagerTests.ReturnsWithoutResources" executed="True" result="Success" success="True" time="0.281" asserts="1" />
+                      <test-case name="Spring.Web.Support.LocalResourceManagerTests.ReturnsWithResources" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MimeMediaTypeTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.MimeMediaTypeTests.CreateInstance" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                      <test-case name="Spring.Web.Support.MimeMediaTypeTests.Equals" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Support.MimeMediaTypeTests.GetHashcode" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Support.MimeMediaTypeTests.Parse" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Web.Support.MimeMediaTypeTests.ToStringReturnsMimeTypeString" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PageHandlerFactoryStandaloneTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.PageHandlerFactoryStandaloneTests.PageUsesReadonlySessionState" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PageHandlerFactoryTests" executed="True" result="Success" success="True" time="7.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.PageHandlerFactoryTests.BCLPageHandlerFactoryBehavior" executed="True" result="Success" success="True" time="0.328" asserts="0" />
+                      <test-case name="Spring.Web.Support.PageHandlerFactoryTests.DisablesSessions" executed="True" result="Success" success="True" time="2.109" asserts="1" />
+                      <test-case name="Spring.Web.Support.PageHandlerFactoryTests.MaintainsSession" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ResultFactoryRegistryTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.ResultFactoryRegistryTests.BailsOnNullReturnedFromFactory" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                      <test-case name="Spring.Web.Support.ResultFactoryRegistryTests.ResultModeValuesHavePredefinedFactories" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Web.Support.ResultFactoryRegistryTests.SelectsFactoryByResultMode" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.Support.ResultFactoryRegistryTests.SetDefaultFactory" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ResultTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.Support.ResultTests.DefaultsToTransferMode" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.Support.ResultTests.DoesItDefaultToTheDefaultResultMode" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.Support.ResultTests.InstantiationBailsWithAllWhitespaceResultString" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.Support.ResultTests.InstantiationBailsWithEmptyResultString" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.Support.ResultTests.InstantiationBailsWithNullResultString" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.Support.ResultTests.ParameterKeysAndValuesMayBeRuntimeExpression" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Web.Support.ResultTests.ParametersHavingEmbeddedCharactersThatHaveToBeEscaped" executed="False" result="Ignored">
+                        <reason>
+                          <message><![CDATA[How does one escape ampersands then?]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="Spring.Web.Support.ResultTests.TargetPageMayBeRuntimeExpression" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithNoResultModeAndNoParameters" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithNoResultModeAndOneParameter" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithNoResultModeAndWhitespaceParameterDelimiterOnly" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithRedirectNoAbortResultMode" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithRedirectResultMode" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithResultModeAndEmptyParameterDelimiterOnly" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithResultModeAndWhitespaceParameterDelimiterOnly" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithRubbishResultMode" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithTransferNoPreserveResultMode" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithTransferResultModeAndOneParameter" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithTransferResultModeAndTwoParametersSplitUsingAmpersand" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithTransferResultModeButNoParameters" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithWhitespacedPageAndTransferResultModeAndTwoParametersUsingAmpersands" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithWhitespacedPageAndTransferResultModeAndTwoParametersUsingCommas" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithWhitespacedRedirectResultMode" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Web.Support.ResultTests.WithWhitespacePageAndNoResultModeAndNoParameters" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="UI" executed="True" result="Success" success="True" time="0.234" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Controls" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AbstractValidationControlTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                        <results>
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.CanReadErrorsFromCrossValidationContainerByDefault" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.DefaultsToControlIDOrStringEmptyAsProviderName" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.DefaultsToValidationContainerMessageSource" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.DoesNotReadErrorsFromCrossValidationContainerByDefault" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.NoExceptionWhenNoErrors" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.NoExceptionWhenNoValidationContainer" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.ReadsErrorsFromClosestValidationContainerByDefault" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.ResolvesAndRendersValidationErrorsUsingExplicitlySpecifiedErrorsAndMessageSource" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.ResolvesAndRendersValidationErrorsUsingValidationContainer" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.ResolveValidationContainerToEnclosingPageRecursively" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.ResolveValidationContainerToEnclosingParentRecursively" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Web.UI.Controls.AbstractValidationControlTests.ThrowsIfCreateValidationErrorsRendererReturnsNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="HeadTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                        <results>
+                          <test-case name="Spring.Web.UI.Controls.HeadTests.DontRenderHeadTagIfNestedWithinStandardHeadControl" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.HeadTests.RenderChildrenFirst" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.HeadTests.ScriptBlockRendersTypeAttribute" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.HeadTests.ScriptEventRendersTypeAttribute" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.HeadTests.ScriptFileRendersTypeAttributeAndUsesScriptsRootPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.HeadTests.StyleBlockRendersTypeAttribute" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Web.UI.Controls.HeadTests.StyleFileRendersTypeAttributeAndUsesCssRootPath" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ValidationErrorsTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="Spring.Web.UI.Controls.ValidationErrorsTests.DefaultsToSpanValidationErrorsRenderer" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ValidationSummaryTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="Spring.Web.UI.Controls.ValidationSummaryTests.DefaultsToDivValidationErrorsRenderer" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PageTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.UI.PageTests.AllowsNeutralUserCulture" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Web.UI.PageTests.CallsBaseValidateMethod" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Web.UI.PageTests.DefaultsToDefaultWebCultureResolver" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.UI.PageTests.NoNullModelPersistenceMediumAllowed" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.UI.PageTests.NoSharedStateAtConstruction" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.UI.PageTests.SetResultSelectsCorrectResult" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                      <test-case name="Spring.Web.UI.PageTests.SetResultThrowsVerboseExceptionOnUnknownResultName" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.UI.PageTests.StoresAndLoadsModelUsingModelPersistenceMedium" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.UI.PageTests.Validate" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SessionModelPersistenceMediumTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.UI.SessionModelPersistenceMediumTests.StoresAndRetrievesModelItem" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="UserControlTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Web.UI.UserControlTests.NoNullModelPersistenceMediumAllowed" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.UI.UserControlTests.SetResultBubblesUpHierarchyUntilFirstMatch" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.UI.UserControlTests.SetResultSelectsCorrectResult" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Web.UI.UserControlTests.StoresAndLoadsModelUsingModelPersistenceMedium" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Web.UI.UserControlTests.ValidateSetsDefaultVariables" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="WebCompilerOptionTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="Spring.WebCompilerOptionTests.CompilerOptionsTests.TestBuildCompliance" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

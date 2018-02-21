@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Spring.Testing.NUnit.Tests.dll" total="12" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-07-24" time="11:34:32">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.3620" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="F:\bamboo-home\xml-data\build-dir\SPRNET-DAILY-JOB1\build\net\4.0\release" machine-name="NEWYORK" user="bamboo-agent" user-domain="NEWYORK" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="Spring.Testing.NUnit.Tests.dll" executed="True" result="Success" success="True" time="1.922" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Spring" executed="True" result="Success" success="True" time="1.922" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="NUnitCompilerOptionTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+            <results>
+              <test-case name="Spring.NUnitCompilerOptionTests.CompilerOptionsTests.TestBuildCompliance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Testing" executed="True" result="Success" success="True" time="1.891" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Ado" executed="True" result="Success" success="True" time="0.891" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="SimpleAdoTestUtilsTests" executed="True" result="Success" success="True" time="0.891" asserts="0">
+                    <results>
+                      <test-case name="Spring.Testing.Ado.SimpleAdoTestUtilsTests.ExecuteEmptyScript" executed="True" result="Success" success="True" time="0.609" asserts="0" />
+                      <test-case name="Spring.Testing.Ado.SimpleAdoTestUtilsTests.ExecuteScriptTransactedRollsbackIfNoCommit" executed="True" result="Success" success="True" time="0.172" asserts="0" />
+                      <test-case name="Spring.Testing.Ado.SimpleAdoTestUtilsTests.ExecuteScriptTransactedSuccess" executed="True" result="Success" success="True" time="0.078" asserts="0" />
+                      <test-case name="Spring.Testing.Ado.SimpleAdoTestUtilsTests.ExecuteScriptWithGOBlocks" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Testing.Ado.SimpleAdoTestUtilsTests.ExecuteScriptWithMissingSeparatorOnLastBlock" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Testing.Ado.SimpleAdoTestUtilsTests.ExecuteScriptWithSemicolonSeparatedStatements" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Testing.Ado.SimpleAdoTestUtilsTests.ExecuteSingleStatement" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="NUnit" executed="True" result="Success" success="True" time="0.984" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AbstractDependencyInjectionSpringContextTestsTests" executed="True" result="Success" success="True" time="0.984" asserts="0">
+                    <results>
+                      <test-case name="Spring.Testing.NUnit.AbstractDependencyInjectionSpringContextTestsTests.CachesApplicationContexts" executed="True" result="Success" success="True" time="0.969" asserts="10" />
+                      <test-case name="Spring.Testing.NUnit.AbstractDependencyInjectionSpringContextTestsTests.DoesNotRegisterContextWithContextRegistry" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Testing.NUnit.AbstractDependencyInjectionSpringContextTestsTests.RegistersWithContextRegistryByDefault" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Testing.NUnit.AbstractDependencyInjectionSpringContextTestsTests.UnregistersFromContextRegistryWhenDirty" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

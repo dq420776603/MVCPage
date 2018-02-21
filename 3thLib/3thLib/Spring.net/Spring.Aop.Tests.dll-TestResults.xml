@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Spring.Aop.Tests.dll" total="495" errors="0" failures="0" not-run="4" inconclusive="0" ignored="4" skipped="0" invalid="0" date="2011-07-24" time="11:33:28">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.3620" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="F:\bamboo-home\xml-data\build-dir\SPRNET-DAILY-JOB1\build\net\4.0\release" machine-name="NEWYORK" user="bamboo-agent" user-domain="NEWYORK" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="Spring.Aop.Tests.dll" executed="True" result="Success" success="True" time="18.359" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Spring" executed="True" result="Success" success="True" time="18.359" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Aop" executed="True" result="Success" success="True" time="17.594" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Config" executed="True" result="Success" success="True" time="1.094" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AopNamespaceParserTests" executed="True" result="Success" success="True" time="1.094" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Config.AopNamespaceParserTests.AdviceInvokedCorrectly" executed="True" result="Success" success="True" time="1.063" asserts="3" />
+                      <test-case name="Spring.Aop.Config.AopNamespaceParserTests.Registered" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Framework" executed="True" result="Success" success="True" time="15.672" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Adapter" executed="True" result="Success" success="True" time="0.391" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AdvisorAdapterRegistrationTests" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.Adapter.AdvisorAdapterRegistrationTests.AdvisorAdapterRegistrationManagerNotPresentInContext" executed="True" result="Success" success="True" time="0.109" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.Adapter.AdvisorAdapterRegistrationTests.AdvisorAdapterRegistrationManagerPresentInContext" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AfterReturningAdviceInterceptorTests" executed="True" result="Success" success="True" time="0.234" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.Adapter.AfterReturningAdviceInterceptorTests.IsNotInvokedIfServiceObjectThrowsException" executed="True" result="Success" success="True" time="0.234" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.Adapter.AfterReturningAdviceInterceptorTests.JustPassesAfterReturningAdviceExceptionUpWithoutAnyWrapping" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.Adapter.AfterReturningAdviceInterceptorTests.PassNullAdviceToCtor" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ThrowsAdviceInterceptorTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.ChokesOnHandlerWhereMultipleMethodsAreApplicable" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.CorrectHandlerUsed" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.CorrectHandlerUsedForSubclass" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.HandlerMethodThrowsException" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.NestedInnerExceptionsAreNotPickedUp" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.NoHandlerMethodForThrowable" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.NoHandlerMethods" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.NotInvoked" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptorTests.PassNullAdviceToCtor" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="UnknownAdviceTypeExceptionTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.Adapter.UnknownAdviceTypeExceptionTests.InstantiationWithNullAdviceDoesNotThrowAnotherException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="AopContextTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.AopContextTests.CurrentProxyChokesIfNoAopProxyIsOnTheStack" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.AopContextTests.CurrentProxyIsThreadSafe" description="http://opensource.atlassian.com/projects/spring/browse/SPRNET-341" executed="True" result="Success" success="True" time="0.063" asserts="31972" />
+                      <test-case name="Spring.Aop.Framework.AopContextTests.CurrentProxyStackJustPeeksItDoesntPop" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Framework.AopContextTests.IsActiveMatchesStackState" description="SPRNET-1158" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.AopContextTests.PopProxyWithNothingOnStack" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="AutoProxy" executed="True" result="Success" success="True" time="0.297" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AbstractAdvisorAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AbstractAdvisorAutoProxyCreatorTests.DoesNotAcceptInfrastructureAdvisorsDuringScanning" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AbstractAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AbstractAutoProxyCreatorTests.ProxyObjectWithInterface" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AbstractAutoProxyCreatorTests.ProxyObjectWithoutInterface" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AbstractAutoProxyCreatorTests.ProxyTransparentProxy" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AdvisorAutoProxyCreatorCircularReferencesTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AdvisorAutoProxyCreatorCircularReferencesTests.TestAutoProxyCreation" executed="True" result="Success" success="True" time="0.016" asserts="9" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AdvisorAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AdvisorAutoProxyCreatorTests.DefaultExclusionPrefix" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AdvisorAutoProxyCreatorTests.HasProxy" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AdvisorAutoProxyCreatorTests.NoProxy" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AdvisorAutoProxyCreatorTests.RegexpApplied" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AdvisorAutoProxyCreatorTests.SetLTCValue" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AttributeAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.AllowsEmptyAttributeList" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.CreatesProxyOnAttributeMatch" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.CreatesProxyOnInheritedAttributeMatchWhenCheckInherited" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.DefaultsToNotCheckInherited" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.DoesNotCheckMethodLevelAttributes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.DoesNotCreateProxyIfEmptyAtributeList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.DoesNotCreateProxyIfNoAttributeMatch" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.DoesNotCreateProxyOnInheritedAttributeMatchWhenNotCheckInherited" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.ThrowsOnAssigningNullAttributeList" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreatorTests.ThrowsOnMissingAttributeTypeList" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="DefaultAdvisorAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.DefaultAdvisorAutoProxyCreatorTests.CanProxyFactoryMethodProducts" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="InfrastructureAdvisorAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.InfrastructureAdvisorAutoProxyCreatorTests.DoesAcceptInfrastructureAdvisorsOnlyDuringScanning" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ObjectNameAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.AppliesToCreatedObjectsNotFactoryObject" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.DecoratorProxyWithWildcardMatch" executed="True" result="Success" success="True" time="0.016" asserts="9" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.FrozenProxy" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.Introduction" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.NoProxy" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.ProxyWithDoubleProxyingInvokesInterceptorsOnceOnly" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.ProxyWithExactNameMatch" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.ProxyWithTwoWildcardsMatch" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreatorTests.ProxyWithWildcardMatchSuffix" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="PointcutFilteringAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.PointcutFilteringAutoProxyCreatorTests.CreatesProxyOnPointcutMatch" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.PointcutFilteringAutoProxyCreatorTests.DoesNotCreateProxyIfNoPointcutMatch" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.PointcutFilteringAutoProxyCreatorTests.ThrowsArgumentExceptionIfNoCriteriaSpecified" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="TypeNameAutoProxyCreatorTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.AutoProxy.TypeNameAutoProxyCreatorTests.AllowsEmptyTypeNameList" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.TypeNameAutoProxyCreatorTests.CreatesProxyOnTypeNameMatch" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.TypeNameAutoProxyCreatorTests.DoesNotCreateProxyIfEmptyTypeNameList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.TypeNameAutoProxyCreatorTests.DoesNotCreateProxyIfNoTypeNameMatch" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.TypeNameAutoProxyCreatorTests.ThrowsOnAssigningNullTypeNames" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.AutoProxy.TypeNameAutoProxyCreatorTests.ThrowsOnMissingTypeNames" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="DynamicMethodInvocationTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.InstantiationWithNullMethod" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.InstantiationWithNullTarget" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.ProceedWithEmptyInterceptorChain" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.ProceedWithNullInterceptorChain" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.ToStringMustNotInvokeToStringOnTarget" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.ToStringWithArguments" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.ToStringWithoutArguments" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.UnwrapsTargetInvocationException_NoInterceptors" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.UnwrapsTargetInvocationException_WithInterceptor" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.UnwrapsTargetInvocationException_WithInterceptorThatThrowsAnException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.DynamicMethodInvocationTests.AbstractMethodInvocationTests.ValidInvocation" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="DynamicProxy" executed="True" result="Success" success="True" time="13.844" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AopUtilsTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.CanApplyWithAdvisorYieldsTrueIfAdvisorIsNotKnownAdvisorType" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.CanApplyWithAdvisorYieldsTrueIfAdvisorIsNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.CanApplyWithTrueIntroductionAdvisor" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.GetAllInterfacesFromTypeWithNull" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.GetAllInterfacesSunnyDay" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.GetAllInterfacesTestsPreconditions" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.GetAllInterfacesWithNull" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.GetAllInterfacesWithObjectThatDoesntImpementAnything" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.GetAllInterfacesWithObjectThatInheritsInterfaces" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.PointcutAlwaysApplies" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.PointcutAppliesToOneInterfaceOfSeveral" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.PointcutAppliesToOneMethodOnObject" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.AopUtilsTests.PointcutCanNeverApply" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CachedAopProxyFactoryTests" executed="True" result="Success" success="True" time="0.219" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DefaultAopProxyFactoryTests.NoInterceptorsAndNoTarget" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DefaultAopProxyFactoryTests.NullConfig" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DefaultAopProxyFactoryTests.TargetDoesNotImplementAnyInterfaces" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DefaultAopProxyFactoryTests.TargetImplementsAnInterface" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DefaultAopProxyFactoryTests.TargetImplementsAnInterfaceWithProxyTargetTypeSetToTrue" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DoesCacheWithTwoCompositionBasedProxy" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DoesCacheWithTwoDecoratorBasedProxy" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DoesNotCacheWithDifferentBaseType" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DoesNotCacheWithDifferentInterfaces" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DoesNotCacheWithDifferentProxyTargetAttributes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CachedAopProxyFactoryTests.DoesNotCacheWithDifferentTargetType" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CompositionAopProxyTests" executed="True" result="Success" success="True" time="3.109" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.AddAdviceAtRuntime" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.AddThrowsAdviceWithoutAdvisor" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.AfterReturningAdvisorIsInvoked" executed="True" result="Success" success="True" time="0.016" asserts="9" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.AfterReturningAdvisorIsNotInvokedOnException" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ArgumentsModification" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.BeforeAdviceThrowsException" executed="True" result="Success" success="True" time="0.016" asserts="12" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.BeforeAdvisorIsInvoked" executed="True" result="Success" success="True" time="0.016" asserts="11" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.CanCastProxyToIAdvised" executed="True" result="Success" success="True" time="0.016" asserts="15" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.CannotAddAdvisorWhenFrozenUsingCast" description="Check that casting to Advised can't get around advice freeze." executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.CannotAddInterceptorWhenFrozen" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.CannotRemoveAdvisorWhenFrozen" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.CanSerializeDeserializeISerializable" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.CanSerializeDeserializeSerializable" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_by_default_throws_NotSupportedException" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_delegates_to_interceptors" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_throws_ArgumentNullException_On_NullTarget" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_throws_NotSupportedException_On_Incompatible_Target" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetMethodAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetMethodParameterAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetMethodReturnValueAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetTypeAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.DynamicMethodPointcutThatAlwaysAppliesStatically" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.DynamicMethodPointcutThatAppliesStaticallyOnlyToSetters" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.EqualsMethod" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.GetHashCodeMethod" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ImplementsInterfaceHierarchy" description="http://jira.springframework.org/browse/SPRNET-1174" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.InterceptGenericInterface" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.InterceptGenericMethod" executed="True" result="Success" success="True" time="0.031" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.InterceptorHandledCallWithNoTarget" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.InterceptorThrowsException" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.InterceptorUnhandledCallWithNoTarget" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.MultiAdvice" executed="False" result="Ignored">
+                            <reason>
+                              <message><![CDATA[Multi advice not supported for now.]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.MultipleProceedCalls" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.MultiThreadedProxyCreation" description="http://opensource.atlassian.com/projects/spring/browse/SPRNET-340" executed="True" result="Success" success="True" time="1.938" asserts="210" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.NoInterceptorWithNoTarget" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.OneAdvisedObjectCallsAnother" executed="True" result="Success" success="True" time="0.031" asserts="21" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.OverloadedMethodsWithDifferentAdvice" executed="True" result="Success" success="True" time="0.016" asserts="11" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyAProxy" executed="True" result="Success" success="True" time="0.188" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyAProxyWhereClassExplicitlyImplementsInterfacesWithSameMethodNamesAndSignatures" executed="True" result="Success" success="True" time="0.031" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyConfigString" description="Check that the string is informative." executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyGenericMethodWithRefOutParametersWithDirectCall" executed="True" result="Success" success="True" time="0.016" asserts="10" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyGenericMethodWithRefOutParametersWithDynamicReflection" executed="True" result="Success" success="True" time="0.016" asserts="11" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyGenericMethodWithRefOutParametersWithStandardReflection" executed="True" result="Success" success="True" time="0.016" asserts="11" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyMethodWithRefOutParametersWithDirectCall" executed="True" result="Success" success="True" time="0.000" asserts="13" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyMethodWithRefOutParametersWithDynamicReflection" executed="True" result="Success" success="True" time="0.000" asserts="14" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyMethodWithRefOutParametersWithStandardReflection" executed="True" result="Success" success="True" time="0.016" asserts="14" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyTargetMethodAttributes" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyTargetMethodParameterAttributes" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyTargetMethodReturnValueAttributes" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ProxyTargetTypeAttributes" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.Reentrance" executed="True" result="Success" success="True" time="0.031" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ReplaceArgument" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ReplaceArgumentAscendingPropagation" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ReplaceArgumentDescendingPropagation" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.SerializationAdviceAndTargetNotSerializable" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.SerializationAdviceNotSerializable" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.SerializationSerializableTargetAndAdvice" executed="True" result="Success" success="True" time="0.047" asserts="13" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.StaticMethodPointcut" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.TargetCanGetProxy" executed="True" result="Success" success="True" time="0.016" asserts="10" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.TargetCanGetProxyEvenIfNoAdviceChain" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.TargetCantGetProxyByDefault" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.TargetReturnsThis" description="Test that the proxy returns itself when the target returns 'this'." executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.TargetThrowsException" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ThrowsAdvisorIsInvoked" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ToStringMethod" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.AbstractAopProxyTests.ValuesStick" description="Simple test that if we set values we can get them out again." executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.Equality" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.ProxyIsJustInterface" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.CompositionAopProxyTests.ReturnsThisWhenProxyIsIncompatible" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="DecoratorAopProxyTests" executed="True" result="Success" success="True" time="9.734" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.AddAdviceAtRuntime" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.AddThrowsAdviceWithoutAdvisor" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.AfterReturningAdvisorIsInvoked" executed="True" result="Success" success="True" time="0.078" asserts="8" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.AfterReturningAdvisorIsNotInvokedOnException" executed="True" result="Success" success="True" time="0.063" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ArgumentsModification" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.BeforeAdviceThrowsException" executed="True" result="Success" success="True" time="0.063" asserts="11" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.BeforeAdvisorIsInvoked" executed="True" result="Success" success="True" time="0.063" asserts="10" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.CanCastProxyToIAdvised" executed="True" result="Success" success="True" time="0.078" asserts="14" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.CannotAddAdvisorWhenFrozenUsingCast" description="Check that casting to Advised can't get around advice freeze." executed="True" result="Success" success="True" time="0.078" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.CannotAddInterceptorWhenFrozen" executed="True" result="Success" success="True" time="0.063" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.CannotRemoveAdvisorWhenFrozen" executed="True" result="Success" success="True" time="0.078" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.CanSerializeDeserializeISerializable" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.CanSerializeDeserializeSerializable" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_by_default_throws_NotSupportedException" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_delegates_to_interceptors" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_throws_ArgumentNullException_On_NullTarget" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.Does_proxy_interfacemethods_without_implementation_and_throws_NotSupportedException_On_Incompatible_Target" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetMethodAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetMethodParameterAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetMethodReturnValueAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.DoesNotProxyTargetTypeAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.DynamicMethodPointcutThatAlwaysAppliesStatically" executed="True" result="Success" success="True" time="0.031" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.DynamicMethodPointcutThatAppliesStaticallyOnlyToSetters" executed="True" result="Success" success="True" time="0.031" asserts="7" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.EqualsMethod" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.GetHashCodeMethod" executed="True" result="Success" success="True" time="0.219" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ImplementsInterfaceHierarchy" description="http://jira.springframework.org/browse/SPRNET-1174" executed="True" result="Success" success="True" time="0.031" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.InterceptGenericInterface" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.InterceptGenericMethod" executed="True" result="Success" success="True" time="0.047" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.InterceptorHandledCallWithNoTarget" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.InterceptorThrowsException" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.InterceptorUnhandledCallWithNoTarget" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.MultiAdvice" executed="False" result="Ignored">
+                            <reason>
+                              <message><![CDATA[Multi advice not supported for now.]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.MultipleProceedCalls" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.MultiThreadedProxyCreation" description="http://opensource.atlassian.com/projects/spring/browse/SPRNET-340" executed="True" result="Success" success="True" time="6.172" asserts="160" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.NoInterceptorWithNoTarget" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.OneAdvisedObjectCallsAnother" executed="True" result="Success" success="True" time="0.078" asserts="20" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.OverloadedMethodsWithDifferentAdvice" executed="True" result="Success" success="True" time="0.031" asserts="10" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyAProxy" executed="True" result="Success" success="True" time="0.172" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyAProxyWhereClassExplicitlyImplementsInterfacesWithSameMethodNamesAndSignatures" executed="True" result="Success" success="True" time="0.078" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyConfigString" description="Check that the string is informative." executed="True" result="Success" success="True" time="0.078" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyGenericMethodWithRefOutParametersWithDirectCall" executed="True" result="Success" success="True" time="0.047" asserts="10" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyGenericMethodWithRefOutParametersWithDynamicReflection" executed="True" result="Success" success="True" time="0.031" asserts="11" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyMethodWithRefOutParametersWithDirectCall" executed="True" result="Success" success="True" time="0.031" asserts="13" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyMethodWithRefOutParametersWithDynamicReflection" executed="True" result="Success" success="True" time="0.016" asserts="14" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyTargetMethodAttributes" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyTargetMethodParameterAttributes" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyTargetMethodReturnValueAttributes" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ProxyTargetTypeAttributes" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.Reentrance" executed="True" result="Success" success="True" time="0.047" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ReplaceArgument" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ReplaceArgumentAscendingPropagation" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ReplaceArgumentDescendingPropagation" executed="True" result="Success" success="True" time="0.078" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.SerializationAdviceAndTargetNotSerializable" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.SerializationAdviceNotSerializable" executed="True" result="Success" success="True" time="0.094" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.SerializationSerializableTargetAndAdvice" executed="True" result="Success" success="True" time="0.094" asserts="13" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.StaticMethodPointcut" executed="True" result="Success" success="True" time="0.078" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.TargetCanGetProxy" executed="True" result="Success" success="True" time="0.047" asserts="9" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.TargetCanGetProxyEvenIfNoAdviceChain" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.TargetCantGetProxyByDefault" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.TargetReturnsThis" description="Test that the proxy returns itself when the target returns 'this'." executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.TargetThrowsException" executed="True" result="Success" success="True" time="0.094" asserts="1" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ThrowsAdvisorIsInvoked" executed="True" result="Success" success="True" time="0.031" asserts="8" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ToStringMethod" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.AbstractAopProxyTests.ValuesStick" description="Simple test that if we set values we can get them out again." executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.CannotInterceptFinalMethodThatDoesNotBelongToAnInterface" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.CannotProxyNonPublicClass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.CannotProxySealedClass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.DoesNotProxyTargetVirtualMethodAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.DoesNotProxyTargetVirtualMethodParameterAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.DoesNotProxyTargetVirtualMethodReturnValueAttributesWithProxyTargetAttributesEqualsFalse" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.Equality" executed="False" result="Ignored">
+                            <reason>
+                              <message><![CDATA[TODO: doesn't work yet for decorator proxies]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.InterceptFinalMethodThatBelongsToAnInterface" executed="True" result="Success" success="True" time="0.063" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.InterceptInheritedVirtualMethods" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.InterceptProtectedVirtualMethod" executed="True" result="Success" success="True" time="0.031" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.InterceptVirtualMethod" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.ProxyCanBeClassAndInterface" executed="True" result="Success" success="True" time="0.063" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.ProxyGenericMethodWithRefOutParametersWithStandardReflection" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.ProxyMethodWithRefOutParametersWithStandardReflection" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.ProxyTargetVirtualMethodAttributes" executed="True" result="Success" success="True" time="0.156" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.ProxyTargetVirtualMethodParameterAttributes" executed="True" result="Success" success="True" time="0.031" asserts="5" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DecoratorAopProxyTests.ProxyTargetVirtualMethodReturnValueAttributes" executed="True" result="Success" success="True" time="0.031" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="DefaultAopProxyFactoryTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DefaultAopProxyFactoryTests.NoInterceptorsAndNoTarget" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DefaultAopProxyFactoryTests.NullConfig" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DefaultAopProxyFactoryTests.TargetDoesNotImplementAnyInterfaces" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DefaultAopProxyFactoryTests.TargetImplementsAnInterface" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.DefaultAopProxyFactoryTests.TargetImplementsAnInterfaceWithProxyTargetTypeSetToTrue" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="InheritanceAopProxyTests" executed="True" result="Success" success="True" time="0.531" asserts="0">
+                        <results>
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.CallBaseConstructor" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.DirectCall" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.DoesNotInterceptFinalMethod" executed="True" result="Success" success="True" time="0.047" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.DoesNotInterceptInternalMethod" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptInheritedMethods" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptNonVirtualMethodThatBelongsToAnInterface" executed="True" result="Success" success="True" time="0.031" asserts="6" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptProtectedMethod" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptThisCalls" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptVirtualGenericMethod" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptVirtualGenericMethodWithGenericParameter" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptVirtualMethod" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptVirtualMethodAndAmbiguousMatches" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.InterceptVirtualMethodThatBelongsToAnInterface" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                          <test-case name="Spring.Aop.Framework.DynamicProxy.InheritanceAopProxyTests.ProxyTargetTypeOnly" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="HashtableCachingAdvisorChainFactoryTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.HashtableCachingAdvisorChainFactoryTests.Instantiation" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PrototypeTargetTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.PrototypeTargetTests.PrototypeProxyWithPrototypeTarget" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                      <test-case name="Spring.Aop.Framework.PrototypeTargetTests.SingletonProxyWithPrototypeTarget" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ProxyConfigTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.ProxyConfigTests.Instantiation" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ProxyFactoryObjectTests" executed="True" result="Success" success="True" time="0.563" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.AddAdvisorWhenConfigIsFrozen" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.AutoInvoker" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.CanAddAndRemoveAspectInterfacesOnPrototype" executed="True" result="Success" success="True" time="0.078" asserts="6" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.CanAddAndRemoveAspectInterfacesOnSingletonByCasting" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.CanAddAndRemoveIntroductionsOnSingleton" executed="False" result="Ignored">
+                        <reason>
+                          <message><![CDATA[change according to ProxyFactoryBeanTests.canAddAndRemoveAdvicesOnSingleton]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.CanAddThrowsAdviceWithoutAdvisor" executed="True" result="Success" success="True" time="0.031" asserts="8" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.CanGetFactoryReferenceAndManipulate" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.FactoryWrapsObjectInSingletonTargetSource" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.GetObjectTypeWithDirectTarget" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.GetObjectTypeWithNoTargetOrTargetSource" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.GetObjectTypeWithTargetViaTargetSource" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.GlobalsCanAddAspectInterfaces" executed="True" result="Success" success="True" time="0.031" asserts="5" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.IsCompositionProxy" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.IsSingletonFalseReturnsNew_ProxyInstance_NotNewProxyTargetSource" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.IsSingletonTrueReturnsNew_ProxyInstance_NotNewProxyTargetSource" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.MakeSurePrototypeTargetIsNotNeedlesslyCreatedDuringInitialization_Integration" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.MakeSurePrototypeTargetIsNotNeedlesslyCreatedDuringInitialization_Unit" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.MethodPointcuts" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.NotAccessibleInterfaceProxying" description="http://opensource.atlassian.com/projects/spring/browse/SPRNET-500" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.NullNameInInterceptorNamesArrayThrowAopConfigException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.PassClassNotInterfaceNameToTheProxyInterfacesProperty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.PassEmptyInterceptorNamesArray_WithTargetThatImplementsAnInterfaceCanBeCastToSaidInterface" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.PassNullElementListToTheProxyInterfacesProperty" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.PassNullToTheProxyInterfacesProperty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.PassRubbishNameToTheProxyInterfacesProperty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.PrototypeInstancesAreIndependent" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.PrototypeInstancesAreNotEqual" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.ProxiedObjectUnwrapsTargetInvocationException" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.ProxyFactoryObjectIsThreadSafe" executed="True" result="Success" success="True" time="0.031" asserts="420" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.ProxyTypeChangesIfConfigChanges" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.ProxyTypeDoesntChangeIfSameConfig" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.RemoveAdvisorWhenConfigIsFrozen" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.ReplaceAdvisorWhenConfigIsFrozen" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.SingletonInstancesAreEqual" executed="True" result="Success" success="True" time="0.016" asserts="9" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.SingletonProxyWithPrototypeTargetCreatesTargetOnlyOnce" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.SupportsTransparentProxyAsTarget" description="http://opensource.atlassian.com/projects/spring/browse/SPRNET-293" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.TargetAtEndOfInterceptorList" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryObjectTests.TargetThrowsInvalidCastException" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ProxyFactoryTests" executed="True" result="Success" success="True" time="0.359" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AddAdvisedSupportListener" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AddAndRemoveEventHandlerThroughInterceptor" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AddAndRemoveEventHandlerThroughIntroduction" executed="True" result="Success" success="True" time="0.047" asserts="6" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AddInterfaceWhenConfigurationIsFrozen" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AddNullAdvisedSupportListenerIsOk" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AddNullInterface" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AddRepeatedInterface" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AdvisedSupportListenerMethodsAre_NOT_CalledIfProxyHasNotBeenCreated" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.AdvisedSupportListenerMethodsAreCalledAppropriately" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.CacheTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.CallsEqualsOverride" executed="True" result="Success" success="True" time="0.047" asserts="10" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.CanOnlyAddMethodInterceptors" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.CreateProxyFactoryWithoutTargetThenSetTarget" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.Frozen_RemoveAdvisor" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.GetsAllInterfaces" executed="True" result="Success" success="True" time="0.109" asserts="4" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.IgnoresAdvisorDuplicates" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.IndexOfMethods" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.InstantiateWithNullTarget" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.InterceptorInclusionMethods" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.NestedProxiesDontInvokeSameAdviceOrIntroductionTwice" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.RemoveAdvisedSupportListener" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.RemoveAdvisorByIndex" executed="True" result="Success" success="True" time="0.000" asserts="13" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.RemoveAdvisorByReference" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.RemoveNullAdvisedSupportListenerIsOk" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.RemoveProxiedInterface" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.ReplaceAdvisor" executed="True" result="Success" success="True" time="0.016" asserts="13" />
+                      <test-case name="Spring.Aop.Framework.ProxyFactoryTests.TryRemoveNonProxiedInterface" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ReflectiveMethodInvocationTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.InstantiationWithNullMethod" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.InstantiationWithNullTarget" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.ProceedWithEmptyInterceptorChain" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.ProceedWithNullInterceptorChain" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.ToStringMustNotInvokeToStringOnTarget" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.ToStringWithArguments" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.ToStringWithoutArguments" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.UnwrapsTargetInvocationException_NoInterceptors" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.UnwrapsTargetInvocationException_WithInterceptor" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.UnwrapsTargetInvocationException_WithInterceptorThatThrowsAnException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Framework.ReflectiveMethodInvocationTests.AbstractMethodInvocationTests.ValidInvocation" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Support" executed="True" result="Success" success="True" time="0.375" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AttributeMatchMethodPointcutTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.AttributeSetterWithASunnyDayAttributeType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.AttributeSetterWithNonAttributeType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.AttributeSetterWithNullType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.InstantiationWithASunnyDayAttributeType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.InstantiationWithNonAttributeType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWhenExplicitlyImplemed" description="SPRNET-1314" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithAMethodThatDontMatchTheAttributeTypeAndNoInheritance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithAnIndirectInterfaceMethodFromSubclassThatMatchesTheAttributeTypeAndCheckInterfaces" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithAnIndirectInterfaceMethodThatMatchesTheAttributeTypeAndCheckInterfaces" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithAnInheritedMethodThatDontMatchTheAttributeTypeAndNoInheritance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithAnInterfaceMethodThatMatchesTheAttributeTypeAndCheckInterfaces" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithAnInterfaceMethodThatMatchesTheAttributeTypeAndNoCheckInterfaces" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithAnOverloadedInterfaceMethod" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithASunnyDayAttributeTypeAndInheritance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.AttributeMatchMethodPointcutTests.MatchesWithASunnyDayAttributeTypeAndNoInheritance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ControlFlowPointcutTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.DefaultClassFilterImplAlwaysMatchesRegardless" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.DynamicMethodMatchWithJustTypeSpecifiedInCtor" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.DynamicMethodMatchWithTypeAndMethodNameSpecifiedInCtor" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.DynamicMethodMatchWithTypeAndMethodNameSpecifiedInCtorNoMatch" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.EvaluationCountIncrementedEvenIfPointcutDoesNotMatch" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.EvaluationCountIncrementedOnEveryMatch" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.Matches" executed="True" result="Success" success="True" time="0.047" asserts="7">
+                        <categories>
+                          <category name="Integration" />
+                        </categories>
+                      </test-case>
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.SelectiveApplication" executed="True" result="Success" success="True" time="0.016" asserts="5">
+                        <categories>
+                          <category name="Integration" />
+                        </categories>
+                      </test-case>
+                      <test-case name="Spring.Aop.Support.ControlFlowPointcutTests.StaticMethodMatchImplAlwaysMatchesRegardless" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="DefaultIntroductionAdvisorTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.DefaultIntroductionAdvisorTests.BailsIfInterfaceTypeIsNotAnInterface" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.DefaultIntroductionAdvisorTests.BaseInterfacesAreValid" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.DefaultIntroductionAdvisorTests.EqualsOnAdviceEqualAndInterfacesEqual" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.DefaultIntroductionAdvisorTests.IntroductionMustImplementIntroducedInterfaces" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="DelegatingIntroductionInterceptorTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.DelegatingIntroductionInterceptorTests.testIntroductionInterceptorWithDelegation" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                      <test-case name="Spring.Aop.Support.DelegatingIntroductionInterceptorTests.testNullTarget" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="RegularExpressionMethodPointcutAdvisorTests" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.RegularExpressionMethodPointcutAdvisorTests.MultiplePatterns" executed="True" result="Success" success="True" time="0.094" asserts="6" />
+                      <test-case name="Spring.Aop.Support.RegularExpressionMethodPointcutAdvisorTests.Serialization" executed="True" result="Success" success="True" time="0.078" asserts="11" />
+                      <test-case name="Spring.Aop.Support.RegularExpressionMethodPointcutAdvisorTests.SinglePattern" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="RootTypeFilterTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.RootTypeFilterTests.InstantiationWithNullRootType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SdkRegularExpressionMethodPointcutTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.ExactMatch" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.ExactMatchWithGenericType" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.MatchesObjectClass" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.NoPatternSupplied" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.SerializationWithNoPatternSupplied" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.Wildcard" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.WildcardForOneClass" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.WildcardForOneClassWithGenericType" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.AbstractRegularExpressionMethodPointcutTests.WildcardWithGenericType" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.InstantiationViaSerialization" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.InstantiationWithSuppliedPattern" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.MixedPatternsAndDefaultOptions" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.SetPatternsPluralToNull" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.SetPatternsPluralToStringArrayWithNullValue" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.SetPatternToNull" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Support.SdkRegularExpressionMethodPointcutTests.TryMatchesAfterSerialization" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TypeFiltersTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Support.TypeFiltersTests.Intersection" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                      <test-case name="Spring.Aop.Support.TypeFiltersTests.Union" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Target" executed="True" result="Success" success="True" time="0.344" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="EmptyTargetSourceTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Target.EmptyTargetSourceTests.Deserialization" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.EmptyTargetSourceTests.IsSerializable" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.EmptyTargetSourceTests.IsStatic" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="HotSwappableTargetSourceTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Target.HotSwappableTargetSourceTests.InstantiationWithInitialTarget" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aop.Target.HotSwappableTargetSourceTests.InstantiationWithNullIsOk" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Target.HotSwappableTargetSourceTests.RejectsSwapToNull" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Target.HotSwappableTargetSourceTests.SwapDoesIndeedReturnTheOldTarget" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.HotSwappableTargetSourceTests.ValidSwaps" executed="True" result="Success" success="True" time="0.000" asserts="6">
+                        <categories>
+                          <category name="Integration" />
+                        </categories>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PrototypeTargetSourceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Target.PrototypeTargetSourceTests.AfterPropertiesSetWithoutTargetObjectNameBeingSet" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Target.PrototypeTargetSourceTests.GetTarget" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aop.Target.PrototypeTargetSourceTests.IsStatic" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.PrototypeTargetSourceTests.PrototypeAndSingletonBehaveDifferently" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                      <test-case name="Spring.Aop.Target.PrototypeTargetSourceTests.TargetType" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.PrototypeTargetSourceTests.WithNonSingletonTargetObject" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SimplePoolTargetSourceTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Target.SimplePoolTargetSourceTests.ConfigMixin" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+                      <test-case name="Spring.Aop.Target.SimplePoolTargetSourceTests.Functionality" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aop.Target.SimplePoolTargetSourceTests.FunctionalityWithNoInterceptors" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SingletonTargetSourceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Target.SingletonTargetSourceTests.EqualsNullInstance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.SingletonTargetSourceTests.EqualsSameInstance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.SingletonTargetSourceTests.GetTarget" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.SingletonTargetSourceTests.InstantiationWithNullTargetSource" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aop.Target.SingletonTargetSourceTests.IsStatic" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aop.Target.SingletonTargetSourceTests.TargetType" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ThreadLocalTargetSourceTests" executed="True" result="Success" success="True" time="0.203" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aop.Target.ThreadLocalTargetSourceTests.CanGetStatsViaMixinIfThereIsAnInterceptorTakingCareOfThem" executed="True" result="Success" success="True" time="0.047" asserts="6" />
+                      <test-case name="Spring.Aop.Target.ThreadLocalTargetSourceTests.MultiThreadedTest" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+                      <test-case name="Spring.Aop.Target.ThreadLocalTargetSourceTests.NewThreadHasOwnInstance" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                      <test-case name="Spring.Aop.Target.ThreadLocalTargetSourceTests.ReuseInSameThread" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aop.Target.ThreadLocalTargetSourceTests.UseDifferentManagedInstancesInSameThread" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TrueMethodMatcherTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="Spring.Aop.TrueMethodMatcherTests.AlwaysMatches" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueMethodMatcherTests.AlwaysMatchesEvenOnNullArguments" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueMethodMatcherTests.Deserialization" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueMethodMatcherTests.IsRuntime" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueMethodMatcherTests.IsSerializable" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TruePointcutTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Spring.Aop.TruePointcutTests.Deserialization" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TruePointcutTests.IsSerializable" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TrueTypeFilterTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Spring.Aop.TrueTypeFilterTests.AlwaysMatches" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueTypeFilterTests.AlwaysMatchesEvenOnNullArgument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueTypeFilterTests.Deserialization" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueTypeFilterTests.IsSerializable" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Aop.TrueTypeFilterTests.ToStringAlwaysTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="AopCompilerOptionsTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="Spring.AopCompilerOptionsTests.CompilerOptionsTests.TestBuildCompliance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="AopExceptionTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="Spring.AopExceptionTests.ExceptionsTest.TestStandardsCompliance" executed="True" result="Success" success="True" time="0.016" asserts="93" />
+              <test-case name="Spring.AopExceptionTests.ExceptionsTest.TestThisTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="AopSerializationTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="Spring.AopSerializationTests.AllAopInfrastructureTypesAreSerializable" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Aspects" executed="True" result="Success" success="True" time="0.641" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Cache" executed="True" result="Success" success="True" time="0.344" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="CacheAspectIntegrationTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aspects.Cache.CacheAspectIntegrationTests.CacheDoesNotExist" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                      <test-case name="Spring.Aspects.Cache.CacheAspectIntegrationTests.CacheDoesNotImplementICache" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aspects.Cache.CacheAspectIntegrationTests.NoCacheKeySpecified" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aspects.Cache.CacheAspectIntegrationTests.TestCacheResultDoesNotReturnInvalidType" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Cache.CacheAspectIntegrationTests.TestCaching" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                      <test-case name="Spring.Aspects.Cache.CacheAspectIntegrationTests.UseMethodInfoForKeyGeneration" description="http://jira.springframework.org/browse/SPRNET-959" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="CacheParameterAdviceTests" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aspects.Cache.CacheParameterAdviceTests.TestConditionParameterCaching" executed="True" result="Success" success="True" time="0.094" asserts="1" />
+                      <test-case name="Spring.Aspects.Cache.CacheParameterAdviceTests.TestMultipleParameterCaching" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aspects.Cache.CacheParameterAdviceTests.TestSimpleParameterCaching" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aspects.Cache.CacheParameterAdviceTests.TestSimpleWithMethodInfoParameterCaching" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="CacheResultAdviceTests" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.AcceptsEnumerableOnlyReturn" executed="True" result="Success" success="True" time="0.016" asserts="9" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheOnlyItemsOfMethodThatReturnsCollection" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheOnlyItemsOfMethodThatReturnsCollectionOnCondition" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheOnlyItemsOfMethodThatReturnsCollectionWithinTwoDifferentCaches" executed="True" result="Success" success="True" time="0.016" asserts="9" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultAndItemsOfMethodThatReturnsCollection" executed="True" result="Success" success="True" time="0.000" asserts="10" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultItemsWithMethodInfo" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultOfMethodThatReturnsCollection" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultOfMethodThatReturnsCollectionContainingNullItems" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultOfMethodThatReturnsCollectionOnCondition" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultOfMethodThatReturnsNull" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultOfMethodThatReturnsNullWithSerializingCache" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultOfMethodThatReturnsObject" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                      <test-case name="Spring.Aspects.Cache.CacheResultAdviceTests.CacheResultWithMethodInfo" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="InvalidateCacheAdviceTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aspects.Cache.InvalidateCacheAdviceTests.TestConditionInvalidation" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aspects.Cache.InvalidateCacheAdviceTests.TestMultiKeyInvalidation" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aspects.Cache.InvalidateCacheAdviceTests.TestMultipleCachesInvalidation" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aspects.Cache.InvalidateCacheAdviceTests.TestSingleKeyInvalidation" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Aspects.Cache.InvalidateCacheAdviceTests.TestWholeCacheInvalidation" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Exceptions" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ExceptionHandlerAspectIntegrationTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.ChainLogAndWrap" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.ExecuteSpelAction" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTest" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithBadString" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithConstraintExpression" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithConstraintExpressionWithExceptionHandlerInList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithConstraintExpressionWithKeyedExceptionHandler" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithInvalidConstraintExpression" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithNonBooleanConstraintExpression" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithString" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.LoggingTestWithStringExplicitHandler" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.ReplaceWithString" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.ReplaceWithStringDefaultMessage" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.ReturnWithString" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.SwallowReturnTypeIsValueType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.SwallowWithString" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.TranslateWithExceptionHandlerInstance" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.TranslationWithString" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.WrapWithString" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Aspects.Exceptions.ExceptionHandlerAspectIntegrationTests.WrapWithStringDefaultMessage" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Logging" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="SimpleLoggingAdviceTests" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aspects.Logging.SimpleLoggingAdviceTests.ExceptionPathStillLogsCorrectly" executed="True" result="Success" success="True" time="0.063" asserts="0" />
+                      <test-case name="Spring.Aspects.Logging.SimpleLoggingAdviceTests.IntegrationTest" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                      <test-case name="Spring.Aspects.Logging.SimpleLoggingAdviceTests.SunnyDayLoggingAllOptionalInformationCorrectly" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aspects.Logging.SimpleLoggingAdviceTests.SunnyDayLoggingCorrectly" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Aspects.Logging.SimpleLoggingAdviceTests.SunnyDayLoggingCorrectlyDebugLevel" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="RetryAdviceTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                <results>
+                  <test-case name="Spring.Aspects.RetryAdviceTests.TestSunnyDay" executed="True" result="Success" success="True" time="0.047" asserts="32" />
+                  <test-case name="Spring.Aspects.RetryAdviceTests.TestUnexpectedException" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Validation" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ParameterValidationAdviceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Aspects.Validation.ParameterValidationAdviceTests.TestInvalidArgument" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Aspects.Validation.ParameterValidationAdviceTests.TestValidArgument" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

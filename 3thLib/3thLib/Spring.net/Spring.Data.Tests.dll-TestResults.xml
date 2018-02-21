@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Spring.Data.Tests.dll" total="184" errors="0" failures="0" not-run="2" inconclusive="0" ignored="2" skipped="0" invalid="0" date="2011-07-24" time="11:33:37">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.3620" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="F:\bamboo-home\xml-data\build-dir\SPRNET-DAILY-JOB1\build\net\4.0\release" machine-name="NEWYORK" user="bamboo-agent" user-domain="NEWYORK" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="Spring.Data.Tests.dll" executed="True" result="Success" success="True" time="6.234" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Spring" executed="True" result="Success" success="True" time="6.203" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Dao" executed="True" result="Success" success="True" time="0.250" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Attributes" executed="True" result="Success" success="True" time="0.234" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="PersistenceExceptionTranslationAdvisorTests" executed="True" result="Success" success="True" time="0.125" asserts="0">
+                    <results>
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationAdvisorTests.NoTranslationNeeded" executed="True" result="Success" success="True" time="0.109" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptions" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptionsOnInheritedInterface" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptionsOnInterface" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptionsOnSuperclass" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationAdvisorTests.TranslationNotNeededForTheseExceptions" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PersistenceExceptionTranslationInterceptorTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationInterceptorTests.PersistenceExceptionTranslationAdvisorTests.NoTranslationNeeded" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationInterceptorTests.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptions" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationInterceptorTests.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptionsOnInheritedInterface" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationInterceptorTests.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptionsOnInterface" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationInterceptorTests.PersistenceExceptionTranslationAdvisorTests.TranslationNeededForTheseExceptionsOnSuperclass" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationInterceptorTests.PersistenceExceptionTranslationAdvisorTests.TranslationNotNeededForTheseExceptions" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PersistenceExceptionTranslationPostProcessorTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                    <results>
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationPostProcessorTests.FailsWithNoPersistenceExceptionTranslators" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Dao.Attributes.PersistenceExceptionTranslationPostProcessorTests.ProxiesCorrectly" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="IncorrectResultSizeDataAccessExceptionTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="Spring.Dao.IncorrectResultSizeDataAccessExceptionTests.SizeGetter" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="IncorrectUpdateSemanticsDataAccessExceptionTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+              <test-suite type="Namespace" name="Support" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="DataAccessUtilsTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Dao.Support.DataAccessUtilsTests.Test" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="UncategorizedDataAccessExceptionTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Data" executed="True" result="Success" success="True" time="5.500" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="AdoPlatformTransactionManagerTests" executed="True" result="Success" success="True" time="3.453" asserts="0">
+                <results>
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.ExistingTransactionWithPropagationNestedNotSupported" executed="True" result="Success" success="True" time="0.297" asserts="8" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.ParticipatingTransactionWithRollbackOnly" executed="True" result="Success" success="True" time="0.000" asserts="24" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.ParticipatingTransactionWithRollbackOnlyAndInnerSynch" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.ParticipatingTransactionWithTransactionStartedFromSynch" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.PropagationNeverWithExistingTransaction" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.PropagationNotSupportedWithExistingTransaction" executed="True" result="Success" success="True" time="0.000" asserts="17" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.PropagationRequiresNewWithExistingConnection" executed="True" result="Success" success="True" time="0.016" asserts="16" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.PropagationRequiresNewWithExistingTransaction" executed="True" result="Success" success="True" time="0.000" asserts="19" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.PropagationRequiresNewWithExistingTransactionAndUnrelatedDataSource" executed="True" result="Success" success="True" time="0.016" asserts="21" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.PropagationRequiresNewWithExistingTransactionAndUnrelatedFailingDataSource" executed="True" result="Success" success="True" time="0.000" asserts="14" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionCommit" executed="True" result="Success" success="True" time="0.000" asserts="13" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionRollback" executed="True" result="Success" success="True" time="0.016" asserts="12" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithExceptionOnBegin" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithExceptionOnCommit" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithExceptionOnCommitAndRollbackOnCommitFailure" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithExceptionOnRollback" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithIsolation" executed="True" result="Success" success="True" time="0.016" asserts="11" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithLongTimeout" executed="True" result="Success" success="True" time="1.547" asserts="6" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithPropagationNested" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithPropagationNestedAndRollback" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithPropagationNever" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithPropagationNotSupported" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithPropagationSupports" executed="True" result="Success" success="True" time="0.000" asserts="10" />
+                  <test-case name="Spring.Data.AdoPlatformTransactionManagerTests.TransactionWithShortTimeout" executed="True" result="Success" success="True" time="1.500" asserts="6" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="AutoDeclarativeTxTests" executed="True" result="Success" success="True" time="0.719" asserts="0">
+                <results>
+                  <test-case name="Spring.Data.AutoDeclarativeTxTests.CoordinatorDeclarativeWithAttributes" executed="True" result="Success" success="True" time="0.719" asserts="12" />
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Common" executed="True" result="Success" success="True" time="1.094" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="DbParametersTests" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Common.DbParametersTests.OracleClient" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                      <test-case name="Spring.Data.Common.DbParametersTests.SqlClient" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="DbProviderFactoryTests" executed="True" result="Success" success="True" time="0.734" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.AdditionalResourceName" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.BadErrorExpression" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.DefaultInstanceWithMicrsoftOracleClient20" executed="True" result="Success" success="True" time="0.094" asserts="7" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.DefaultInstanceWithOleDb20" executed="True" result="Success" success="True" time="0.047" asserts="7" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.DefaultInstanceWithOleDb40" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.DefaultInstanceWithSqlServer20" executed="True" result="Success" success="True" time="0.031" asserts="17" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.DefaultInstanceWithSqlServer40" executed="True" result="Success" success="True" time="0.016" asserts="12" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.TestSqlServer20Names" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                      <test-case name="Spring.Data.Common.DbProviderFactoryTests.ThreadSafety" executed="True" result="Success" success="True" time="0.422" asserts="4000" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MultiDelegatingDbProviderTests" executed="True" result="Success" success="True" time="0.203" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.CreateOperations" executed="True" result="Success" success="True" time="0.188" asserts="11" />
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.CreationWhenNoRequiredPropertiesSet" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.CreationWithWrongTypeDictionaryKeys" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.CreationWithWrongTypeDictionaryValues" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.FallbackToDefault" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.MatchingProviderDefinedInThreadLocalStorage" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.NoDefaultProvided" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Data.Common.MultiDelegatingDbProviderTests.NoMatchingProviderDefinedInThreadLocalStorage" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="UserCredentialsDbProviderTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Common.UserCredentialsDbProviderTests.NoCredentials" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Data.Common.UserCredentialsDbProviderTests.StaticCredentials" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Data.Common.UserCredentialsDbProviderTests.ThreadBoundCredentials" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ServiceDomainTransactionManagerTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Core.ServiceDomainTransactionManagerTests.PropagationRequiresNewWithExistingTransaction" executed="True" result="Success" success="True" time="0.047" asserts="11" />
+                      <test-case name="Spring.Data.Core.ServiceDomainTransactionManagerTests.TransactionCommit" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Data.Core.ServiceDomainTransactionManagerTests.TransactionRollback" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TxScopeTransactionManagerIntegrationTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Core.TxScopeTransactionManagerIntegrationTests.Commit" executed="True" result="Success" success="True" time="0.031" asserts="15" />
+                      <test-case name="Spring.Data.Core.TxScopeTransactionManagerIntegrationTests.Rollback" executed="True" result="Success" success="True" time="0.031" asserts="12" />
+                      <test-case name="Spring.Data.Core.TxScopeTransactionManagerIntegrationTests.TransactionInformation" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TxScopeTransactionManagerTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Core.TxScopeTransactionManagerTests.PropagationRequiresNewWithExistingTransaction" executed="True" result="Success" success="True" time="0.031" asserts="11" />
+                      <test-case name="Spring.Data.Core.TxScopeTransactionManagerTests.TransactionCommit" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Data.Core.TxScopeTransactionManagerTests.TransactionRollback" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Objects" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AdoOperationTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Objects.AdoOperationTests.DeclareParameterAfterCompile" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Data.Objects.AdoOperationTests.EmptySql" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Data.Objects.AdoOperationTests.TooFewParameters" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="AdoQueryTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Objects.AdoQueryTests.MappingAdoQueryWithContextWithoutParams" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                      <test-case name="Spring.Data.Objects.AdoQueryTests.QueryWithoutEnoughParams" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="StoredProcedureTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Data.Objects.StoredProcedureTests.NullArg" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="DataCompilerOptionTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="Spring.DataCompilerOptionTests.CompilerOptionsTests.TestBuildCompliance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="DataExceptionTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+            <results>
+              <test-case name="Spring.DataExceptionTests.ExceptionsTest.TestStandardsCompliance" executed="True" result="Success" success="True" time="0.047" asserts="1123" />
+              <test-case name="Spring.DataExceptionTests.ExceptionsTest.TestThisTest" executed="True" result="Success" success="True" time="0.000" asserts="124" />
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Support" executed="True" result="Success" success="True" time="0.000" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="ErrorCodeExceptionTranslatorTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Spring.Support.ErrorCodeExceptionTranslatorTests.ErrorCodeTransation" executed="True" result="Success" success="True" time="0.000" asserts="14" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Transaction" executed="True" result="Success" success="True" time="0.375" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Config" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="TxNamespaceParserTests" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Config.TxNamespaceParserTests.AppliesTxAttributeDrivenAttributes" executed="True" result="Success" success="True" time="0.109" asserts="0" />
+                      <test-case name="Spring.Transaction.Config.TxNamespaceParserTests.InvokeTransactional" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                      <test-case name="Spring.Transaction.Config.TxNamespaceParserTests.Registered" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                      <test-case name="Spring.Transaction.Config.TxNamespaceParserTests.RollbackRules" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="HeuristicCompletionExceptionTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Spring.Transaction.HeuristicCompletionExceptionTests.TransactionOutcomeStateGetter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Transaction.HeuristicCompletionExceptionTests.TransactionOutcomeStateGetterCommittted" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Transaction.HeuristicCompletionExceptionTests.TransactionOutcomeStateGetterMixed" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Spring.Transaction.HeuristicCompletionExceptionTests.TransactionOutcomeStateGetterRolledback" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Interceptor" executed="True" result="Success" success="True" time="0.125" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="DefaultTransactionAttributeTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.DefaultTransactionAttributeTests.RollbackOnTests" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Interceptor.DefaultTransactionAttributeTests.ToStringTests" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MatchAlwaysTransactionAttributeSourceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.MatchAlwaysTransactionAttributeSourceTests.CanConfigureInAppContext" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.MatchAlwaysTransactionAttributeSourceTests.GetTransactionAttribute" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="NoNoRollbackRuleAttributeTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.NoNoRollbackRuleAttributeTests.AlwaysTrue" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Transaction.Interceptor.NoNoRollbackRuleAttributeTests.Ancestry" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.NoNoRollbackRuleAttributeTests.ConstructorArgMustBeAExceptionClass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Interceptor.NoNoRollbackRuleAttributeTests.FoundImmediatelyWithClass" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.NoNoRollbackRuleAttributeTests.FoundImmediatelyWithString" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.NoNoRollbackRuleAttributeTests.NotFound" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="RollbackRuleAttributeTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.AlwaysTrue" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.Ancestry" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.ConstructorArgExceptionStringNameVersionWithNull" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.ConstructorArgMustBeAExceptionClass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.ConstructorArgMustBeAExceptionClassWithNullThrowableType" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.FoundImmediatelyWithClass" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.FoundImmediatelyWithString" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.FoundImmediatelyWithType" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.RollbackRuleAttributeTests.NotFound" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="RuleBasedTransactionAttributeTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.RuleBasedTransactionAttributeTests.DefaultRule" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.RuleBasedTransactionAttributeTests.RollbackNever" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Transaction.Interceptor.RuleBasedTransactionAttributeTests.RuleForCommitOnSubclassOfChecked" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Interceptor.RuleBasedTransactionAttributeTests.RuleForCommitOnUnchecked" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Interceptor.RuleBasedTransactionAttributeTests.RuleForRollbackOnApplicationException" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.RuleBasedTransactionAttributeTests.RuleForSelectiveRollbackOnCheckedWithClass" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Interceptor.RuleBasedTransactionAttributeTests.RuleForSelectiveRollbackOnCheckedWithString" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionAttributeEditorTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.DefaultTransactionAttributeToString" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.EmptyStringTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.InvalidPropagationCodeOnly" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.NullTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.RuleBasedTransactionAttributeToString" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.ValidPropagationAndIsolationCodeAndInvalidRollbackRule" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.ValidPropagationCodeAndIsolationCode" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.ValidPropagationCodeAndIsolationCodeAndRollbackRules1" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.ValidPropagationCodeAndIsolationCodeAndRollbackRules2" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeEditorTests.ValidPropagationCodeOnly" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionAttributeSourceAdvisorTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceAdvisorTests.Serializability" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionAttributeSourceEditorTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceEditorTests.Invalid" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceEditorTests.MatchesAll" executed="True" result="Success" success="True" time="0.000" asserts="12" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceEditorTests.MatchesSpecific" executed="True" result="Success" success="True" time="0.000" asserts="10" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceEditorTests.Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionAttributeSourceTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceTests.MethodMapTransactionAttributeSource" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceTests.NameMatchTransactionAttributeSource" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceTests.NameMatchTransactionAttributeSourceMostSpecificMethodNameIsDefinitelyMatched" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceTests.NameMatchTransactionAttributeSourceWithEmptyMethodName" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceTests.NameMatchTransactionAttributeSourceWithStarAtEndOfMethodName" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionAttributeSourceTests.NameMatchTransactionAttributeSourceWithStarAtStartOfMethodName" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionInterceptorTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Interceptor.TransactionInterceptorTests.AbstractTransactionAspectTests.CannotCommitTransaction" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionInterceptorTests.AbstractTransactionAspectTests.CopyAttributes" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionInterceptorTests.AbstractTransactionAspectTests.NoRollbackOnException" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionInterceptorTests.AbstractTransactionAspectTests.NoRollbackOnExceptionWithRollbackException" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionInterceptorTests.AbstractTransactionAspectTests.ProgrammaticRollback" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionInterceptorTests.AbstractTransactionAspectTests.RollbackOnException" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Interceptor.TransactionInterceptorTests.AbstractTransactionAspectTests.RollbackOnExceptionWithRollbackException" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="InvalidTimeoutExceptionTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Spring.Transaction.InvalidTimeoutExceptionTests.TimeoutGetter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Support" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AbstractPlatformTransactionManagerTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.DefaultBehaviorDefaultPropagationNoExistingTransaction" executed="True" result="Success" success="True" time="0.016" asserts="8" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.DefaultNoExistingTransaction" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.DefaultPropagationBehavior" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.DefaultPropagationBehaviorWithNullDefinition" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.DefinitionInvalidPropagationState" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.DefinitionInvalidTimeoutException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.NestedTransactionSuccessfully" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.NestedTransactionWithSavepoint" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.NeverPropagateState" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.NoNestedTransactionsAllowed" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.TransactionCreatedSuccessfully" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.TransactionSuspendedSuccessfully" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                      <test-case name="Spring.Transaction.Support.AbstractPlatformTransactionManagerTests.VanillaProperties" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="DefaultTransactionDefinitionTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionDefinitionTests.DefinitionString" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionDefinitionTests.DefinitionStringFilled" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionDefinitionTests.InvalidTimeout" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionDefinitionTests.IsolationLeveNonDefaultl" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionDefinitionTests.VanillaTest" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="DefaultTransactionStatusTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.CreateSaveAndHoldValidSavepoint" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.CreateSavepointException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.DefaultConstructorTests" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.ReleaseHeldSavepointException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.ReleaseHeldSavepointSuccess" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.ReleaseSavepointException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.RollbackHeldSavepointException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.RollbackHeldSavepointSuccess" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Spring.Transaction.Support.DefaultTransactionStatusTests.RollbackSavepointException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ResourceHolderSupportTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Support.ResourceHolderSupportTests.InvalidDeadline" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.ResourceHolderSupportTests.PropertiesTest" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionSynchronizationAdapterTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Support.TransactionSynchronizationAdapterTests.CoverageTests" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionSynchronizationManagerTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Support.TransactionSynchronizationManagerTests.InitSynchronizationsInvalid" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.TransactionSynchronizationManagerTests.RegisterSyncsInvalid" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.TransactionSynchronizationManagerTests.SynchronizationsClearInvalid" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.TransactionSynchronizationManagerTests.SynchronizationsExecuteInOrderOfRegistration" description="http://jira.springframework.org/browse/SPRNET-1160" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                      <test-case name="Spring.Transaction.Support.TransactionSynchronizationManagerTests.SynchronizationsInvalid" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.TransactionSynchronizationManagerTests.SynchronizationsLifeCycle" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TransactionTemplateTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Spring.Transaction.Support.TransactionTemplateTests.ExecuteException" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Spring.Transaction.Support.TransactionTemplateTests.ExecuteExceptionRollbackException" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Spring.Transaction.Support.TransactionTemplateTests.NoTxnMgr" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Spring.Transaction.Support.TransactionTemplateTests.NullResult" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Spring.Transaction.Support.TransactionTemplateTests.TxnMgr" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

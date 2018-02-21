@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7503DF44-4D75-4ADB-A7E5-2ADB7792DF5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_3thLib</RootNamespace>
+    <AssemblyName>3thLib</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3thLib\Microsoft.SqlServer.TransactSql.ScriptDom.14.0.3660.1\lib\net40\Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
+    <None Include="3thLib\LumiSoft.Net\LumiSoft.Net.dll" />
+    <None Include="3thLib\Microsoft.SqlServer.TransactSql.ScriptDom.14.0.3660.1\Microsoft.SqlServer.TransactSql.ScriptDom.14.0.3660.1.nupkg" />
+    <None Include="3thLib\NHibernate\Iesi.Collections.dll" />
+    <None Include="3thLib\NHibernate\Iesi.Collections.pdb" />
+    <None Include="3thLib\NHibernate\NHibernate.dll" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Common.Logging.dll" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Aop.dll" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Aop.pdb" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Core.dll" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Core.pdb" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Data.dll" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Data.pdb" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Testing.Microsoft.dll" />
+    <Content Include="3thLib\Spring.net\bamboo-agent_NEWYORK 2011-07-24 11_34_34\Out\Spring.Testing.Microsoft.pdb" />
+    <None Include="3thLib\Spring.net\Common.Logging.dll" />
+    <Content Include="3thLib\Spring.net\de-AT\Spring.Core.Tests.resources.dll" />
+    <Content Include="3thLib\Spring.net\de\Spring.Core.Tests.resources.dll" />
+    <None Include="3thLib\Spring.net\Spring.Aop.dll" />
+    <None Include="3thLib\Spring.net\Spring.Aop.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Core.dll" />
+    <None Include="3thLib\Spring.net\Spring.Data.dll" />
+    <None Include="3thLib\Spring.net\Spring.Data.NHibernate32.dll" />
+    <None Include="3thLib\Spring.net\Spring.Data.NHibernate32.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Data.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.dll" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Ems.dll" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Ems.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Nms.dll" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Nms.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Scheduling.Quartz.dll" />
+    <None Include="3thLib\Spring.net\Spring.Scheduling.Quartz.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Services.dll" />
+    <None Include="3thLib\Spring.net\Spring.Services.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Template.Velocity.dll" />
+    <None Include="3thLib\Spring.net\Spring.Template.Velocity.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Testing.Microsoft.dll" />
+    <None Include="3thLib\Spring.net\Spring.Testing.Microsoft.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Testing.NUnit.dll" />
+    <None Include="3thLib\Spring.net\Spring.Testing.NUnit.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Web.dll" />
+    <None Include="3thLib\Spring.net\Spring.Web.Extensions.dll" />
+    <None Include="3thLib\Spring.net\Spring.Web.Extensions.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc.dll" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc3.dll" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc3.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Web.pdb" />
+    <None Include="3thLib\Spring.net\Spring.Web.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc3.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc3.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc3.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Mvc.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Web.Extensions.xml" />
+    <None Include="3thLib\Spring.net\Spring.Testing.NUnit.xml" />
+    <None Include="3thLib\Spring.net\Spring.Testing.NUnit.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Testing.NUnit.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Testing.Microsoft.xml" />
+    <None Include="3thLib\Spring.net\Spring.Template.Velocity.xml" />
+    <None Include="3thLib\Spring.net\Spring.Template.Velocity.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Template.Velocity.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Services.xml" />
+    <None Include="3thLib\Spring.net\Spring.Scheduling.Quartz.xml" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.xml" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Nms.xml" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Nms.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Nms.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Messaging.Ems.xml" />
+    <None Include="3thLib\Spring.net\Spring.Data.xml" />
+    <None Include="3thLib\Spring.net\Spring.Data.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Data.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Data.NHibernate32.xml" />
+    <None Include="3thLib\Spring.net\Spring.Data.NHibernate32.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Data.NHibernate32.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Core.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Core.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\Spring.net\Spring.Aop.xml" />
+    <None Include="3thLib\Spring.net\Spring.Aop.Tests.dll-TestResults.xml" />
+    <None Include="3thLib\Spring.net\Spring.Aop.Tests.dll-TestCoverage.xml" />
+    <None Include="3thLib\NHibernate\Iesi.Collections.xml" />
+    <None Include="3thLib\LumiSoft.Net\LumiSoft.Net.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3thLib\NHibernate\nhibernate-configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="3thLib\NHibernate\nhibernate-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="3thLib\log4net.2.0.5\" />
+    <Folder Include="3thLib\Newtonsoft.Json.9.0.1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
