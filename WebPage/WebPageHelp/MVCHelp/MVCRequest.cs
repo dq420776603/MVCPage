@@ -1,10 +1,10 @@
-﻿using DBHelp.SqlScriptDom;
+﻿using SqlScriptDom;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Extend.MVCHelp
+namespace WebPageHelp.MVCHelp
 {
     public class MVCRequest : Request
     {
@@ -17,14 +17,14 @@ namespace Extend.MVCHelp
         {
             get
             {
-                return _sort == null ? new List<string>() : _sort.Trim(',').Split(',').ToList();
+                return _sort == null ? new List<string>() : new List<string>(_sort.Trim(',').Split(','));
             }
         }
         public List<string> List_order
         {
             get
             {
-                return _sort == null ? new List<string>() : _order.Trim(',').Split(',').ToList();
+                return _sort == null ? new List<string>() : new List<string>(_order.Trim(',').Split(','));
             }
         }
         #region 对于原生sql不实用
@@ -52,7 +52,12 @@ namespace Extend.MVCHelp
         {
             get
             {
-                return string.Join(",", ListOrderExpression);
+                string strOrderExpressionString = string.Empty;
+                if (ListOrderExpression != null)
+                {
+                    strOrderExpressionString = string.Join(",", ListOrderExpression.ToArray());
+                }
+                return strOrderExpressionString;
             }
         }
         #endregion

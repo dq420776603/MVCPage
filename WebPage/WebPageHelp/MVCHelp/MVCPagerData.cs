@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
-namespace Extend.MVCHelp
+namespace WebPageHelp.MVCHelp
 {
     /// <summary>
     /// EasyUI的Grid用的返回的分页数据结构

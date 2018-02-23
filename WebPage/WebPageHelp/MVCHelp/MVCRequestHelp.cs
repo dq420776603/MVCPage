@@ -1,12 +1,10 @@
-﻿using DBHelp.SqlScriptDom;
-using Extend.SqlScriptDom.SqlPartN;
+﻿using SqlScriptDom;
+using SqlScriptDom.SqlPartN;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace Extend.MVCHelp
+namespace WebPageHelp.MVCHelp
 {
     public class MVCRequestHelp
     {

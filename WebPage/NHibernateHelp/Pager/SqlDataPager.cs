@@ -1,7 +1,7 @@
-﻿using DBHelp.SqlScriptDom;
-using Microsoft.SqlServer.TransactSql.ScriptDom;
+﻿using Microsoft.SqlServer.TransactSql.ScriptDom;
 using NHibernateHelp.NHibernateCallback;
 using Spring.Data.NHibernate;
+using SqlScriptDom;
 using System;
 using System.Collections;
 using System.Collections.Generic;

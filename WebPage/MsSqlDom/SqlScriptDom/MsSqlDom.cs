@@ -1,11 +1,10 @@
-﻿using Extend.SqlScriptDom;
-using Microsoft.SqlServer.TransactSql.ScriptDom;
+﻿using Microsoft.SqlServer.TransactSql.ScriptDom;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace DBHelp.SqlScriptDom
+namespace SqlScriptDom
 {
     public class MsSqlDom
     {

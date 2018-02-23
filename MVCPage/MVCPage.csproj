@@ -1433,17 +1433,13 @@
     <Content Include="Views\AccountQuery\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{a7e509f2-1e42-4962-9ae3-4eef9d51e9d9}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataOperate\NHibernateHelp\NHibernateHelp.csproj">
+    <ProjectReference Include="..\WebPage\NHibernateHelp\NHibernateHelp.csproj">
       <Project>{92cd3c13-f1e3-4739-a23a-f71aade244c3}</Project>
       <Name>NHibernateHelp</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Extend\Extend.csproj">
-      <Project>{13e6b012-1ec1-4a29-816f-12dc5f16e5fa}</Project>
-      <Name>Extend</Name>
+    <ProjectReference Include="..\WebPage\WebPageHelp\WebPageHelp.csproj">
+      <Project>{e0c3ea7e-28b5-4b28-8541-e5ede41707c7}</Project>
+      <Name>WebPageHelp</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

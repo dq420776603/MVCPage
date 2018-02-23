@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Extend.SqlScriptDom.SqlPartN
+namespace SqlScriptDom.SqlPartN
 {
     /// <summary>
     /// 代表sql语句的各个部分
