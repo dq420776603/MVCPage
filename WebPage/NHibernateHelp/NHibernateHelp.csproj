@@ -40,7 +40,7 @@
   <ItemGroup>
     <Reference Include="Common.Logging, Version=1.2.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Multiplexing\3thLib\3thLib\Spring.net\Common.Logging.dll</HintPath>
+      <HintPath>..\..\3thLib\3thLib\Spring.net\Common.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Ext.Net, Version=4.2.0.0, Culture=neutral, PublicKeyToken=2e12ce3d0176cd87, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -51,9 +51,9 @@
       <HintPath>..\..\3thLib\3thLib\NHibernate\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.TransactSql.ScriptDom, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
-    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Multiplexing\3thLib\3thLib\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NHibernate, Version=3.2.0.3001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MsSqlDom\MsSqlDom.csproj">
