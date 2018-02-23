@@ -44,7 +44,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="3thLib\Ext.NET.4.2.0\content\Ext.NET.Default.aspx" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net40\Ext.Net.dll" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net40\Ext.Net.xml" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net40\pdb\Ext.Net.pdb" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net45\Ext.Net.dll" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net45\Ext.Net.xml" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net45\pdb\Ext.Net.pdb" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net46\Ext.Net.dll" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net46\Ext.Net.xml" />
+    <Content Include="3thLib\Ext.NET.4.2.0\lib\net46\pdb\Ext.Net.pdb" />
+    <Content Include="3thLib\Ext.NET.4.2.0\readme.txt" />
     <Content Include="3thLib\Microsoft.SqlServer.TransactSql.ScriptDom.14.0.3660.1\lib\net40\Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
+    <None Include="3thLib\Ext.NET.4.2.0\content\App_Readme\Ext.NET\CHANGELOG.md" />
+    <None Include="3thLib\Ext.NET.4.2.0\content\App_Readme\Ext.NET\LICENSE" />
+    <None Include="3thLib\Ext.NET.4.2.0\content\App_Readme\Ext.NET\README.md" />
+    <None Include="3thLib\Ext.NET.4.2.0\content\Web.config.transform" />
+    <None Include="3thLib\Ext.NET.4.2.0\Ext.NET.4.2.0.nupkg" />
     <None Include="3thLib\LumiSoft.Net\LumiSoft.Net.dll" />
     <None Include="3thLib\Microsoft.SqlServer.TransactSql.ScriptDom.14.0.3660.1\Microsoft.SqlServer.TransactSql.ScriptDom.14.0.3660.1.nupkg" />
     <None Include="3thLib\NHibernate\Iesi.Collections.dll" />
@@ -140,6 +156,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="3thLib\Ext.NET 4.1\" />
+    <Folder Include="3thLib\Ext.NET.Utilities.2.5.0\" />
     <Folder Include="3thLib\log4net.2.0.5\" />
     <Folder Include="3thLib\Newtonsoft.Json.9.0.1\" />
   </ItemGroup>
